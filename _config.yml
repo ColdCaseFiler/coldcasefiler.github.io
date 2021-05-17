@@ -56,8 +56,8 @@ menu:
     url:               /places/
   - title:             Objects
     url:               /objects/
-  - title:             Documentation
-    url:               /docs/
+  - title:             Theories
+    url:               /theories/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -157,7 +157,12 @@ defaults:
       type:            objects
     values:
       seo:
-        type:          WebPage        
+        type:          WebPage
+  - scope:
+      type:            theories
+    values:
+      seo:
+        type:          WebPage         
   - scope:
       type:            featured_categories
     values:
@@ -320,8 +325,11 @@ collections:
 
   objects:
     permalink:         /objects/:path/
-    output:            true    
-
+    output:            true 
+    
+  theories:
+    permalink:         /theories/:path/
+    output:            true
 
 # File inclusion/exclusion
 # ----------------------------------------------------------------------------------------

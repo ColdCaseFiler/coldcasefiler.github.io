@@ -6,6 +6,5 @@ show_collection: theories
 no_groups: true
 ---
 
-[Theory 1][theory-1]
+[Theory 1][/theories/theory-1.md]
 
-[theory-1]: /theories/theory-1.md

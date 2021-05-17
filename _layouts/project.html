@@ -45,7 +45,7 @@ layout: base
         {% endunless %}
       </span>
       
-      <div class="post-date">
+      <span class="post-date">
         {% capture foobar %}
           {%- unless site.hydejack.hide_dates -%}
             {%- assign post_format = site.data.strings.date_formats.post | default:"%d %b %Y" -%}
@@ -80,7 +80,7 @@ layout: base
             {% endif %}
           {% endif %}
         {% endunless %}
-      </div>
+      </span>
     
       <span class="ellipsis ml1" data-tippy-content="{{ site.data.strings.links | default:'Links' }}">
         <span class="sr-only">{{ separator }} {{ site.data.strings.links | default:"Links" }}{{ site.data.strings.colon }}</span>

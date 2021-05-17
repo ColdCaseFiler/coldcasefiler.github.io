@@ -1,9 +1,8 @@
 ---
 layout: projects
-title: Projects
-show_collection: projects
+title: People
+show_collection: people
 description: >
-  How people are using Hydejack in the real world. 
-  This page is built using the `projects` layout* that you can use yourself to build a portfolio.
+  People associated with the case.
 no_groups: true
 ---

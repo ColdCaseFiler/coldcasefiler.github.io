@@ -7,7 +7,7 @@ description: >
 no_groups: true
 ---
 
-[Books]: (references/books)
+[Books]: ({% link references/books %})
 [Articles]: references/articles
 [Videos]: references/videos
 [Websites]: references/websites

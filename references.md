@@ -8,8 +8,14 @@ no_groups: true
 ---
 
 [Books][books]
+
 [Articles][articles]
+
 [Videos][videos]
+
 [Websites][websites]
 
 [books]: /references/books.md
+[articles]: /references/articles.md
+[videos]: /references/videos.md
+[websites]: /references/websites.md

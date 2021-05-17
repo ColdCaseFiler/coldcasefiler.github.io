@@ -8,6 +8,6 @@ no_groups: true
 ---
 
 [Books]: ({% link references/books %})
-[Articles]: references/articles
+[Articles]:references/articles
 [Videos]: references/videos
 [Websites]: references/websites

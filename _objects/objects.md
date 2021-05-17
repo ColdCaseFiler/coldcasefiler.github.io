@@ -1,8 +1,5 @@
 ---
-layout: projects
-title: Objects
-show_collection: objects
-description: >
-  Objects associated with the case.
-no_groups: true
+layout: project
+title: Murder Weapon
+caption: A claw hammer.
 ---

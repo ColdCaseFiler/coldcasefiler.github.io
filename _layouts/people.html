@@ -21,7 +21,7 @@ layout: page
   {% unless page.no_groups %}{% if current_date != prev_date %}
     {% unless forloop.first %}</div>{% endunless %}
 
-    <h2 id="{{ people_group_by | slugify }}-{{ current_date | slugify }}">{{ current_date }}</h2>
+    <h2 id="{{ project_group_by | slugify }}-{{ current_date | slugify }}">{{ current_date }}</h2>
     <div class="columns {% unless no_third_column %}columns-break{% endunless %}">
     {% assign prev_date = current_date %}
   {% endif %}{% endunless %}

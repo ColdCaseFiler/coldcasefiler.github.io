@@ -1,5 +1,5 @@
 ---
-layout: projects
+layout: page
 title: References
 show_collection: references
 description: >

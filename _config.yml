@@ -302,7 +302,7 @@ collections:
     permalink:         /tag-:name/
     output:            true
 
-  projects:
+  people:
     permalink:         /people/:path/
     output:            true
 

@@ -48,6 +48,8 @@ author:
 
 # Add links to the sidebar.
 menu:
+  - title:             Timeline of Events
+    url:               /events/
   - title:             Blog
     url:               /blog/
   - title:             Projects

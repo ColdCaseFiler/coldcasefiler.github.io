@@ -148,7 +148,7 @@ defaults:
   # `jekyll-seo-tag` will mark collection outputs as `BlogPosting`,
   # but we want them to be `WebPage`s:
   - scope:
-      type:            projects
+      type:            people
     values:
       seo:
         type:          WebPage
@@ -303,7 +303,7 @@ collections:
     output:            true
 
   projects:
-    permalink:         /projects/:path/
+    permalink:         /people/:path/
     output:            true
 
 

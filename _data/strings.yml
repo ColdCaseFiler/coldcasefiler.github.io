@@ -88,7 +88,7 @@ date_formats:
   post:                '%d %b %Y'
   last_modified_at:    '%Y-%m-%d'
   related_post:        '%d %b %Y'
-  list_group_by:       '%Y %m'
+  list_group_by:       '%Y %B'
   list_entry:          '%b %d %H:%M:S %p'
   project:             '%Y'
   projects_group_by:   '%Y'

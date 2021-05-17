@@ -7,7 +7,7 @@ description: >
 no_groups: true
 ---
 
-[Books]: books
+[Books]: references/books.md
 [Articles]:references/articles
 [Videos]: references/videos
 [Websites]: references/websites

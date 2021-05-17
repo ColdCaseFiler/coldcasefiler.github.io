@@ -301,7 +301,7 @@ hydejack:
 
 collections:
   featured_categories:
-    permalink:         /blog/:name/
+    permalink:         /:name/
     output:            true
 
   featured_tags:
@@ -311,6 +311,16 @@ collections:
   people:
     permalink:         /people/:path/
     output:            true
+    
+
+  places:
+    permalink:         /places/:path/
+    output:            true
+    
+
+  objects:
+    permalink:         /objects/:path/
+    output:            true    
 
 
 # File inclusion/exclusion

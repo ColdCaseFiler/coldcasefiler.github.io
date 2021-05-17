@@ -52,10 +52,10 @@ menu:
     url:               /events/
   - title:             People
     url:               /people/
-  - title:             Blog
-    url:               /blog/
-  - title:             Résumé*
-    url:               /resume/
+  - title:             Places
+    url:               /places/
+  - title:             Objects
+    url:               /objects/
   - title:             Documentation
     url:               /docs/
 
@@ -64,20 +64,16 @@ menu:
 legal:
   - title:             LICENSE
     url:               /LICENSE/
-  - title:             NOTICE
-    url:               /NOTICE/
-  - title:             CHANGELOG
-    url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             © 2021. All rights reserved.
 
 # Format of the permalinks
-permalink:             /blog/:categories/:year-:month-:day-:title/
+permalink:             /:categories/:year-:month-:day-:title/
 
 # Pagination configuration (used by the `blog` layout)
 paginate:              10
-paginate_path:         /blog/:num/
+paginate_path:         /:num/
 
 
 # Theme
@@ -152,6 +148,16 @@ defaults:
     values:
       seo:
         type:          WebPage
+  - scope:
+      type:            places
+    values:
+      seo:
+        type:          WebPage
+  - scope:
+      type:            objects
+    values:
+      seo:
+        type:          WebPage        
   - scope:
       type:            featured_categories
     values:

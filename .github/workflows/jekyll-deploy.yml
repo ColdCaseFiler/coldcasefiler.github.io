@@ -3,7 +3,7 @@ name: Build and deploy Jekyll site to GitHub Pages
 on:
   push:
     branches:
-      - gh-pages # adjust branch name
+      - main # adjust branch name
 
 jobs:
   deploy:

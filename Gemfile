@@ -10,6 +10,8 @@ source "https://rubygems.org"
 # Happy Jekylling!
 gem "jekyll", "~> 3.8"
 
+gem "jekyll-theme-hydejack", git: "https://github.com/hydecorp/hydejack-dev", branch: "pro/v9"
+
 group :jekyll_plugins do
   gem "github-pages"
   gem "jekyll-include-cache"

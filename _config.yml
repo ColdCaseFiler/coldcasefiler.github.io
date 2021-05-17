@@ -50,10 +50,10 @@ author:
 menu:
   - title:             Timeline of Events
     url:               /events/
+  - title:             People
+    url:               /people/
   - title:             Blog
     url:               /blog/
-  - title:             Projects
-    url:               /projects/
   - title:             Résumé*
     url:               /resume/
   - title:             Documentation

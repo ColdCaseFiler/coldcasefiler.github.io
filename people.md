@@ -1,5 +1,5 @@
 ---
-layout: projects
+layout: list
 title: People
 show_collection: people
 description: >

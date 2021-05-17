@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: page
 title: Theory 1
 caption: The Butler
 description: >

@@ -1,5 +1,5 @@
 ---
 layout: project
-title: 'Hydejack Site'
-caption: Dogfooding Hydejack to sell Hydejack.
+title: Murder Site
+caption: Location of the murder.
 ---

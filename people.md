@@ -1,5 +1,5 @@
 ---
-layout: grid
+layout: projects
 title: People
 show_collection: people
 description: >

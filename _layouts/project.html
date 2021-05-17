@@ -23,7 +23,7 @@ layout: base
   <header>
     <h1 class="page-title" property="name">{{ project.title }}</h1>
 <!--- --->
-    <div class="post-date">
+    <p class="post-date">
       {% capture foobar %}
         {%- unless site.hydejack.hide_dates -%}
           {%- assign post_format = site.data.strings.date_formats.post | default:"%d %b %Y" -%}
@@ -58,7 +58,7 @@ layout: base
           {% endif %}
         {% endif %}
       {% endunless %}
-    </div>
+    </p>
     
 <!---
     <p class="post-date heading">

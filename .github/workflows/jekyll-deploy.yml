@@ -19,6 +19,7 @@ jobs:
       - uses: helaili/jekyll-action@v2
         with:
           token: ${{ secrets.GH_REPO_PAT }}
+          jekyll_env: production
           target_branch: 'gh-pages'
         env:
           BUNDLE_GITHUB__COM: x-access-token:${{ secrets.GH_REPO_PAT }}

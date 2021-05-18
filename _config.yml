@@ -146,26 +146,27 @@ defaults:
 
   # `jekyll-seo-tag` will mark collection outputs as `BlogPosting`,
   # but we want them to be `WebPage`s:
-  - scope:
-      type:            people
-    values:
-      seo:
-        type:          WebPage
-  - scope:
-      type:            places
-    values:
-      seo:
-        type:          WebPage
-  - scope:
-      type:            objects
-    values:
-      seo:
-        type:          WebPage
-  - scope:
-      type:            theories
-    values:
-      seo:
-        type:          WebPage         
+
+#  - scope:
+#      type:            people
+#    values:
+#      seo:
+#        type:          WebPage
+#  - scope:
+#      type:            places
+#    values:
+#      seo:
+#        type:          WebPage
+#  - scope:
+#      type:            objects
+#    values:
+#      seo:
+#        type:          WebPage
+#  - scope:
+#      type:            theories
+#    values:
+#      seo:
+#        type:          WebPage         
   - scope:
       type:            featured_categories
     values:
@@ -173,6 +174,12 @@ defaults:
         type:          WebPage
   - scope:
       type:            featured_tags
+    values:
+      seo:
+        type:          WebPage
+   
+  - scope:
+      type:            projects
     values:
       seo:
         type:          WebPage

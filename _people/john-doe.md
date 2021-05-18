@@ -6,11 +6,11 @@ description: >
   John was a 37 year old Bricklayer from Louisville.
 date: 1 Jun 2020
 image: 
-  path: /assets/img/projects/qwtel.jpg
+  path: /assets/img/john-doe.jpg
   srcset: 
-    1920w: /assets/img/projects/qwtel.jpg
-    960w:  /assets/img/projects/qwtel@0,5x.jpg
-    480w:  /assets/img/projects/qwtel@0,25x.jpg
+    1920w: /assets/img/john-doe.jpg
+    960w:
+    480w:
 links:
   - title: Link
     url: https://qwtel.com/

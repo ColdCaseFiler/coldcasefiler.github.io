@@ -86,6 +86,7 @@ clap_button: false
 theme: jekyll-theme-hydejack
 # remote_theme: hydecorp/hydejack@v9
 
+destination: build
 
 # Customizaton
 # ----------------------------------------------------------------------------------------

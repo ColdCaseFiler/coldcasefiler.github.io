@@ -9,8 +9,8 @@ image:
   path: /assets/img/john-doe.jpg
   srcset: 
     1920w: /assets/img/john-doe.jpg
-    960w:
-    480w:
+    960w: /assets/img/john-doe.jpg
+    480w: /assets/img/john-doe.jpg
 links:
   - title: Link
     url: https://qwtel.com/

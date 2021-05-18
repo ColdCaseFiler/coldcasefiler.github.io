@@ -20,5 +20,4 @@ accent_image:
 theme_color: '#193747'
 sitemap: false
 tags: [victim]
-featured: true
 ---

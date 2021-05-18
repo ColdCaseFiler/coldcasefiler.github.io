@@ -5,4 +5,5 @@ show_collection: people
 description: >
   People associated with the case.
 no_groups: true
+featured: true
 ---

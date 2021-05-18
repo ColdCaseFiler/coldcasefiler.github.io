@@ -3,7 +3,7 @@ layout: project
 title: Jim Davies
 caption: Suspect
 description: >
-  While Hydejack is built for personal sites, it's versatility allows it to be used a product page as well.
+  Jim was a 29 year old mechanic from Louisville.
 date: '01-01-2016'
 image: 
   path: /assets/img/projects/hydejack-site.jpg
@@ -16,4 +16,5 @@ links:
     url: https://hydejack.com/
 sitemap: false
 tags: [suspect]
+featured: false
 ---

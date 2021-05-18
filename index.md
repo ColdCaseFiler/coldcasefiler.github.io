@@ -1,14 +1,14 @@
 ---
 layout: page
-title: Overview
+title: Summary
 description: A summary of the case file.
 ---
 
-### Summary
+## Summary
 
 Details.
 
-#### Sub heading
+### Sub heading
 
 Details. And more.
 

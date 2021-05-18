@@ -15,6 +15,5 @@ links:
   - title: Link
     url: https://hydejack.com/
 sitemap: false
-featured: true
 tags: [victim]
 ---

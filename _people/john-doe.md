@@ -1,6 +1,5 @@
 ---
 layout: project
-featured: true
 title: John Doe
 caption: Victim
 description: >

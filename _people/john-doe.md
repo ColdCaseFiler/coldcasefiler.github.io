@@ -21,7 +21,7 @@ accent_image:
 theme_color: '#193747'
 sitemap: false
 tags: [victim]
-
+featured: true
 ---
 
 For my personal site I've toned it down a bit. Instead of a flashy sidebar image, I chose a solid background color.

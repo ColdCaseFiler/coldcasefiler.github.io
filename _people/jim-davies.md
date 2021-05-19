@@ -3,7 +3,7 @@ layout: project
 title: Jim Davies
 caption: Suspect
 description: >
-  Jim was a 29 year old mechanic from Louisville.
+  29 year old mechanic from Louisville.
 date: '01-01-2016'
 image: 
   path: /assets/img/jim-davies.jpg

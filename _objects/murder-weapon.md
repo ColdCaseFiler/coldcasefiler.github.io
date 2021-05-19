@@ -1,6 +1,6 @@
 ---
 layout: project
-title: 'Muder Weapon'
+title: 'Murder Weapon'
 caption: 9mm handgun.
 description: >
   While Hydejack is built for personal sites, it's versatility allows it to be used a product page as well.

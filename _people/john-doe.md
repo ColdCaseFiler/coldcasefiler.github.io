@@ -22,34 +22,50 @@ sitemap: true
 tags: [victim]
 ---
 
-Name: John Doe
+##Name: 
+John Doe
 
-Sex: Male
+##Sex: 
+Male
 
-Race: White
+##Race: 
+White
 
-Hair Color: Brown
+##Hair Color: 
+Brown
 
-Eye Color: Brown
+##Eye Color: 
+Brown
 
-Height: 5'10"
+##Height: 
+5'10"
 
-Weight: 160lbs
+##Weight: 
+160lbs
 
-Relationship Status: Single
+##Relationship Status: 
+Single
 
-Date of Birth: 1970-08-11
+##Date of Birth: 
+1970-08-11
 
-Date of Death: 1990-04-15 (estimated)
+##Date of Death: 
+990-04-15 (estimated)
 
-Home: 1 Doe St, Doetown
+##Home: 
+1 Doe St, Doetown
 
-Work: McDonald's Restautant (Main and Doe St)
+##Work: 
+McDonald's Restautant (Main and Doe St)
 
-School: Doetown High
+##School: 
+Doetown High
 
-Clubs/Associations: none
+##Clubs/Associations: 
+none
 
-Vehicles: 1988 Chevrolet Cavalier, Red, 2-door
+##Vehicles: 
+1988 Chevrolet Cavalier, Red, 2-door
 
-Notable Features: Tattoo on left bicep, birthmark on right shoulder
+##Notable Features: 
+Tattoo on left bicep, birthmark on right shoulder

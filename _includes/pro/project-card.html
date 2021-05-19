@@ -41,11 +41,11 @@
       {% endif %}
     </div>
   </a>
-  <h3 class="project-card-title flip-project-title" style="background-color: tomato ;">
+  <h3 class="project-card-title flip-project-title">
     <a href="{{ project.url | relative_url }}" class="flip-title" property="mainEntityOfPage">{{ project.title }}</a>
   </h3>
   {% if project.description or project.tagline or project.caption %}
-    <p class="project-card-text fine" property="disambiguatingDescription">
+    <p class="project-card-text fine" property="disambiguatingDescription"  style="background-color: tomato ;">
       {{ project.tagline | default:project.caption | default:project.description | markdownify | replace:'<p>','' | replace:'</p>','' }}
     </p>
   {% endif %}

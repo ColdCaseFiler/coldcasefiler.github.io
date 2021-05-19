@@ -18,8 +18,8 @@ accent_color: '#ff0000'
 accent_image:
   background: '#193747'
 theme_color: '#193747'
-sitemap: false
+sitemap: true
 tags: [victim]
 ---
 
-More More More!
+John Doe, the victim. More More More!

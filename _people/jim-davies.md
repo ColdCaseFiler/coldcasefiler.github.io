@@ -14,7 +14,9 @@ srcset:
 links:
   - title: Link
     url: https://hydejack.com/
-sitemap: false
+sitemap: true
 tags: [suspect]
 featured: false
 ---
+
+Jim Davies, a suspect, chromakey.

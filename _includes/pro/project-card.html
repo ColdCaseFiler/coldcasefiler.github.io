@@ -26,6 +26,7 @@
 
 {% assign screenshot = project.screenshot | default:project.image %}
 {% assign image_base = screenshot.src | default:screenshot.path | default:screenshot %}
+{% assign colorcode = project.accent_color | default: # FFFFFF %}
 
 <article
   class="project-card"
@@ -45,7 +46,7 @@
     <a href="{{ project.url | relative_url }}" class="flip-title" property="mainEntityOfPage">{{ project.title }}</a>
   </h3>
   {% if project.description or project.tagline or project.caption %}
-    <p class="project-card-text fine" property="disambiguatingDescription"  style="background-color: tomato ;">
+    <p class="project-card-text fine" property="disambiguatingDescription"  style="background-color: colorcode;">
       {{ project.tagline | default:project.caption | default:project.description | markdownify | replace:'<p>','' | replace:'</p>','' }}
     </p>
   {% endif %}

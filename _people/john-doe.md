@@ -22,4 +22,34 @@ sitemap: true
 tags: [victim]
 ---
 
-John Doe, the victim. More More More!
+Name: John Doe
+
+Sex: Male
+
+Race: White
+
+Hair Color: Brown
+
+Eye Color: Brown
+
+Height: 5'10"
+
+Weight: 160lbs
+
+Relationship Status: Single
+
+Date of Birth: 1970-08-11
+
+Date of Death: 1990-04-15 (estimated)
+
+Home: 1 Doe St, Doetown
+
+Work: McDonald's Restautant (Main and Doe St)
+
+School: Doetown High
+
+Clubs/Associations: none
+
+Vehicles: 1988 Chevrolet Cavalier, Red, 2-door
+
+Notable Features: Tattoo on left bicep, birthmark on right shoulder

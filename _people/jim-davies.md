@@ -2,7 +2,7 @@
 layout: project
 title: Jim Davies
 caption: Suspect
-category: Suspect
+category: 2 Suspect
 description: >
   29 year old mechanic from Louisville.
 date: '01-01-2016'

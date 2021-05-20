@@ -7,7 +7,7 @@ layout: page
 
 {% assign show_collection = page.show_collection | default:"projects" %}
 {% assign empty_col = '' | split:'.' %}
-{% assign ordered_projects = site[show_collection] | default:empty_col | sort:"category" | replace: "0"," " | replace: "1"," " | replace: "2"," " | replace: "3"," " | replace: "4"," " | lstrip %}
+{% assign ordered_projects = site[show_collection] | default:empty_col | sort:"category" %}
 {% assign nsd = site.hydejack.no_structured_data | default:site.no_structured_data %}
 
 {% assign projects_group_by = project.category | default:"victim" %}
@@ -21,7 +21,7 @@ layout: page
   {% unless page.no_groups %}
     {% unless forloop.first %}</div>{% endunless %}
 
-    <h2 id="{{ projects_group_by | slugify }}-{{ current_category | slugify }}">{{ current_category }}</h2>
+    <h2 id="{{ projects_group_by | slugify }}-{{ current_category | slugify | replace: "0"," " | replace: "1"," " | replace: "2"," " | replace: "3"," " | replace: "4"," " | lstrip }}">{{ current_category }}</h2>
     <div class="columns {% unless no_third_column %}columns-break{% endunless %}">
 {% endunless %}
 

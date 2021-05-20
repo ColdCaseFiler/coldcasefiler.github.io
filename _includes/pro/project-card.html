@@ -30,7 +30,7 @@
 
 
 
-<article style="background-color: #FF0000 ;" class="project-card" {% unless nsd %}vocab="http://schema.org/" typeof="CreativeWork" resource="{{ project.url | relative_url }}#project"{% endunless %}>
+<article style="background-color: {{ colorcode }} ;" class="project-card" {% unless nsd %}vocab="http://schema.org/" typeof="CreativeWork" resource="{{ project.url | relative_url }}#project"{% endunless %}>
   <meta property="name" content="{{ project.title }}"/>
   {% if image_base %}<meta property="image" content="{% include_cached smart-url url=image_base %}"/>{% endif %}
   

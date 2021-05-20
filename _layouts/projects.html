@@ -10,7 +10,7 @@ layout: page
 {% assign ordered_projects = site[show_collection] | default:empty_col | sort:"date" | reverse %}
 {% assign nsd = site.hydejack.no_structured_data | default:site.no_structured_data %}
 
-{% assign projects_group_by = project.category | default:"victim" %}
+{% assign projects_group_by = project.category | sort | default:"victim" %}
 {% assign no_third_column = page.no_third_column | default:site.hydejack.no_third_column | default:false %}
 
 

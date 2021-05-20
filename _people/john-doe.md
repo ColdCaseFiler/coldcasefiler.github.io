@@ -18,9 +18,15 @@ links:
 accent_color: '#56bf56'
 sitemap: true
 ---
+Date of Birth: 
+1970-08-11
 
-Name: 
-John Doe
+Age (at time of crime): 20
+
+Date of Death: 
+1990-04-15 (estimated)
+
+Physical:
 
 Sex: 
 Male
@@ -40,14 +46,10 @@ Height:
 Weight: 
 160lbs
 
-Relationship Status: 
-Single
+Notable Features: 
+Tattoo on left bicep, birthmark on right shoulder
 
-Date of Birth: 
-1970-08-11
-
-Date of Death: 
-990-04-15 (estimated)
+Locations:
 
 Home: 
 1 Doe St, Doetown
@@ -58,11 +60,19 @@ McDonald's Restautant (Main and Doe St)
 School: 
 Doetown High
 
+Associations:
+
+Relationship Status: 
+Single
+
+Family:
+
 Clubs/Associations: 
 none
+
+Other:
 
 Vehicles: 
 1988 Chevrolet Cavalier, Red, 2-door
 
-Notable Features: 
-Tattoo on left bicep, birthmark on right shoulder
+

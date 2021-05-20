@@ -7,11 +7,11 @@ description: >
   29 year old mechanic from Louisville.
 date: '01-01-2016'
 image: 
-  path: /assets/img/john-doe.jpg
+  path: /assets/img/unknown.jpg
 srcset: 
-  1920w: /assets/img/john-doe.jpg
-  960w: /assets/img/john-doe.jpg
-  480w: /assets/img/john-doe.jpg
+  1920w: /assets/img/unknown.jpg
+  960w: /assets/img/unknown.jpg
+  480w: /assets/img/unknown.jpg
 sitemap: true
 accent_color: '#ff7575'
 featured: false

@@ -7,11 +7,11 @@ description: >
   Sara Thompson was the lead detective assigned to the case.
 date: 1 Jun 2020
 image: 
-  path: /assets/img/sara-thompson.jpg
+  path: /assets/img/people/sara-thompson.jpg
   srcset: 
-    1920w: /assets/img/sara-thompson.jpg
-    960w: /assets/img/sara-thompson.jpg
-    480w: /assets/img/sara-thompson.jpg
+    1920w: /assets/img/people/sara-thompson.jpg
+    960w: /assets/img/people/sara-thompson.jpg
+    480w: /assets/img/people/sara-thompson.jpg
 links:
   - title: Link
     url: https://qwtel.com/

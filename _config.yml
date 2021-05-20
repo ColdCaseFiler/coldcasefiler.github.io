@@ -147,11 +147,17 @@ defaults:
   # `jekyll-seo-tag` will mark collection outputs as `BlogPosting`,
   # but we want them to be `WebPage`s:
 
-#  - scope:
-#      type:            people
-#    values:
-#      seo:
-#        type:          WebPage
+  - scope:
+      type:            people
+      order:
+        - victim
+        - perp
+        - suspect
+        - law
+        - witness
+    values:
+      seo:
+        type:          WebPage
 #  - scope:
 #      type:            places
 #    values:

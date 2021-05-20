@@ -42,7 +42,7 @@
     </div>
   </a>
   <h3 class="project-card-title flip-project-title">
-    <a href="{{ project.url | relative_url }}" class="flip-title" property="mainEntityOfPage">{{ project.title }}</a>
+    <a href="{{ project.url | relative_url }}" class="flip-title" property="mainEntityOfPage" style="color: black">{{ project.title }}</a>
   </h3>
   {% if project.description or project.tagline or project.caption %}
     <p class="project-card-text fine" property="disambiguatingDescription" style="color: black">

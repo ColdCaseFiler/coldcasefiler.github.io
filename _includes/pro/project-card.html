@@ -27,17 +27,10 @@
 {% assign screenshot = project.screenshot | default:project.image %}
 {% assign image_base = screenshot.src | default:screenshot.path | default:screenshot %}
 
-<style>
-    article {
-        background-color: "{{ project.accent_color | default: #FFFFFF }}"";
-    }
-</style>
 
-<article class="project-card" {% unless nsd %}vocab="http://schema.org/" typeof="CreativeWork" resource="{{ project.url | relative_url }}#project"{% endunless %}>
+<article style="background-color: tomato ;" class="project-card" {% unless nsd %}vocab="http://schema.org/" typeof="CreativeWork" resource="{{ project.url | relative_url }}#project"{% endunless %}>
   <meta property="name" content="{{ project.title }}"/>
   {% if image_base %}<meta property="image" content="{% include_cached smart-url url=image_base %}"/>{% endif %}
-  
-  <div style="background-color: tomato ;"></div>
   
   <a href="{{ project.url | relative_url }}" class="no-hover no-print-link flip-project" tabindex="-1">
     <div class="project-card-img aspect-ratio sixteen-nine flip-project-img {% unless screenshot %}fallback-img{% endunless %}">

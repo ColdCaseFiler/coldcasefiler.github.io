@@ -2,7 +2,7 @@
 layout: project
 title: Sara Thompson
 caption: Detective
-category: 3 Law
+category: Law
 description: >
   Sara Thompson was the lead detective assigned to the case.
 date: 1 Jun 2020

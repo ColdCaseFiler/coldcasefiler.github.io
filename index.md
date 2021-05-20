@@ -4,12 +4,12 @@ title: Summary
 description: A summary of the case file.
 ---
 
-## Summary
+## The Murder of John Doe
 
-Details.
+John Doe left work on April 15, 1990 shortly after 5pm. Witnesses reported seeing him approximately half an hour later. There are no credible reports of his whereabouts after this time.
 
-### Sub heading
+2 months later, a body is recovered from a drainage ditch on the western edge of Doetown. Dental records identify the body as that of John Doe.
 
-Details. And more.
+### The Investigation
 
-It's alive!
+Early on, the investigation focused on Jim Davies, an acquaintance of John's with a prior record of violent assault.

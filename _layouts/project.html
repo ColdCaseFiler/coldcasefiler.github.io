@@ -84,71 +84,71 @@ layout: base
       {% for sec in l_col %}
         {% case sec %}
         {% when 'home' %}
-          {% project.home %}
+          {{ project.home }}
         {% when 'work' %}
-          {%  project.work %}
+          {{  project.work }}
         {% when 'school' %}
-          {%  project.school %}
+          {{  project.school }}
         {% when 'relationship' %}
-          {%  project.relationship %}
+          {{  project.relationship }}
         {% when 'family' %}
-          {%  project.family %}
+          {{  project.family }}
         {% when 'clubs' %}
-          {%  project.clubs %}
+          {{  project.clubs }}
         {% when 'vehicle' %}
-          {%  project.vehicle %}
+          {{  project.vehicle }}
         {% when 'sex' %}
-          {%  project.sex %}
+          {{  project.sex }}
         {% when 'race' %}
-          {%  project.race %}
+          {{  project.race }}
         {% when 'hair_color' %}
-          {%  project.hair_color %}
+          {{  project.hair_color }}
         {% when 'eye_color' %}
-          {%  project.eye_color %}
+          {{  project.eye_color }}
         {% when 'height' %}
-          {%  project.height %}
+          {{  project.height }}
         {% when 'weight' %}
-          {%  project.weight %}
+          {{  project.weight }}
         {% when 'notable_features' %}
-          {%  project.notable_features %}
+          {{  project.notable_features }}
         {% else %}
         {% endcase %}
       {% endfor %}
     </div>
     <div class="column column-2-5">
       {% for sec in r_col %}
-      {% case sec %}
-      {% when 'home' %}
-        {% project.home %}
-      {% when 'work' %}
-        {%  project.work %}
-      {% when 'school' %}
-        {%  project.school %}
-      {% when 'relationship' %}
-        {%  project.relationship %}
-      {% when 'family' %}
-        {%  project.family %}
-      {% when 'clubs' %}
-        {%  project.clubs %}
-      {% when 'vehicle' %}
-        {%  project.vehicle %}
-      {% when 'sex' %}
-        {%  project.sex %}
-      {% when 'race' %}
-        {%  project.race %}
-      {% when 'hair_color' %}
-        {%  project.hair_color %}
-      {% when 'eye_color' %}
-        {%  project.eye_color %}
-      {% when 'height' %}
-        {%  project.height %}
-      {% when 'weight' %}
-        {%  project.weight %}
-      {% when 'notable_features' %}
-        {%  project.notable_features %}
-      {% else %}
-      {% endcase %}
-    {% endfor %}
+        {% case sec %}
+        {% when 'home' %}
+          {{ project.home }}
+        {% when 'work' %}
+          {{  project.work }}
+        {% when 'school' %}
+          {{  project.school }}
+        {% when 'relationship' %}
+          {{  project.relationship }}
+        {% when 'family' %}
+          {{  project.family }}
+        {% when 'clubs' %}
+          {{  project.clubs }}
+        {% when 'vehicle' %}
+          {{  project.vehicle }}
+        {% when 'sex' %}
+          {{  project.sex }}
+        {% when 'race' %}
+          {{  project.race }}
+        {% when 'hair_color' %}
+          {{  project.hair_color }}
+        {% when 'eye_color' %}
+          {{  project.eye_color }}
+        {% when 'height' %}
+          {{  project.height }}
+        {% when 'weight' %}
+          {{  project.weight }}
+        {% when 'notable_features' %}
+          {{  project.notable_features }}
+        {% else %}
+        {% endcase %}
+      {% endfor %}
     </div>
   </div>
 

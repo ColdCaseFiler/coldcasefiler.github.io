@@ -7,7 +7,7 @@ layout: page
 
 {% assign show_collection = page.show_collection | default:"projects" %}
 {% assign empty_col = '' | split:'.' %}
-{% assign ordered_projects = site[show_collection] | default:empty_col | sort:"date" | reverse %}
+{% assign ordered_projects = site[show_collection] | default:empty_col | sort:"category" | reverse %}
 {% assign nsd = site.hydejack.no_structured_data | default:site.no_structured_data %}
 
 {% assign projects_group_by = project.category | default:"victim" %}

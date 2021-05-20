@@ -26,9 +26,11 @@
 
 {% assign screenshot = project.screenshot | default:project.image %}
 {% assign image_base = screenshot.src | default:screenshot.path | default:screenshot %}
+{% assign colorcode = project.accent_color | default: #FFFFFF %}
 
 
-<article style="background-color: tomato ;" class="project-card" {% unless nsd %}vocab="http://schema.org/" typeof="CreativeWork" resource="{{ project.url | relative_url }}#project"{% endunless %}>
+
+<article style="background-color: colorcode ;" class="project-card" {% unless nsd %}vocab="http://schema.org/" typeof="CreativeWork" resource="{{ project.url | relative_url }}#project"{% endunless %}>
   <meta property="name" content="{{ project.title }}"/>
   {% if image_base %}<meta property="image" content="{% include_cached smart-url url=image_base %}"/>{% endif %}
   
@@ -49,5 +51,4 @@
   {% endif %}
   {% assign text = site.data.strings.continue_reading | default:"Continue reading <!--post_title-->" %}
   <a class="fill-card no-hover" href="{{ project.url | relative_url }}" tabindex="-1"><span class="sr-only">{{ text | replace:"<!--post_title-->", project.title }}</span></a>
-  <div style="background-color: tomato ;"></div>
 </article>

@@ -15,9 +15,9 @@ layout: page
 
 {% assign prev_date = 0 %}
 {% if page.no_groups %}
-  {% for project in show_collection %}
-    {% if project.category = "victim"}<div class="columns {% unless no_third_column %}columns-break{% endunless %}">{% endif %}
-    {% if project.category = "law"}<div class="columns {% unless no_third_column %}columns-break{% endunless %}">{% endif %}
+{% for project in show_collection %}
+  {% if project.category = "victim"}<div class="columns {% unless no_third_column %}columns-break{% endunless %}">{% endif %}
+  {% if project.category = "law"}<div class="columns {% unless no_third_column %}columns-break{% endunless %}">{% endif %}
 {% for project in ordered_projects %}
   {% assign current_date = project.date | date:projects_group_by %}
 

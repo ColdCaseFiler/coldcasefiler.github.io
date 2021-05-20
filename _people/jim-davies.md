@@ -12,6 +12,7 @@ srcset:
   960w: /assets/img/jim-davies.jpg
   480w: /assets/img/jim-davies.jpg
 sitemap: true
+
 accent_color: #ff7575
 featured: false
 ---

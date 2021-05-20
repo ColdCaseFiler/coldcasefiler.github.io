@@ -2,6 +2,7 @@
 layout: project
 title: John Doe
 caption: Victim
+category: victim
 description: >
   John was a 37 year old Bricklayer from Louisville.
 date: 1 Jun 2020

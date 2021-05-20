@@ -21,7 +21,7 @@ layout: page
   {% unless page.no_groups %}
     {% unless forloop.first %}</div>{% endunless %}
 
-    <h2 id="{{ projects_group_by | slugify }}-{{ current_category | replace: '0','' | replace: '1','' | replace: '2','' | replace: '3','' | replace: '4','' | lstrip | slugify }}">{{ current_category }}</h2>
+    <h2 id="{{ projects_group_by | slugify }}-{{ current_category | slugify }}">{{ current_category | replace: '0','' | replace: '1','' | replace: '2','' | replace: '3','' | replace: '4','' | lstrip }}</h2>
     <div class="columns {% unless no_third_column %}columns-break{% endunless %}">
 {% endunless %}
 

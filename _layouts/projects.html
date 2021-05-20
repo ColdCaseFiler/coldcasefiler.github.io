@@ -10,13 +10,13 @@ layout: page
 {% assign ordered_projects = site[show_collection] | default:empty_col | sort:"date" | reverse %}
 {% assign nsd = site.hydejack.no_structured_data | default:site.no_structured_data %}
 
-{% assign projects_group_by = project.category | sort: "category" | default:"victim" %}
+{% assign projects_group_by = project.category | default:"victim" %}
 {% assign no_third_column = page.no_third_column | default:site.hydejack.no_third_column | default:false %}
 
 
 {% if page.no_groups %}<div class="columns {% unless no_third_column %}columns-break{% endunless %}">{% endif %}
 {% for project in ordered_projects %}
-  {% assign current_category = project.category | category:projects_group_by %}
+  {% assign current_category = project.category | category:projects_group_by | sort %}
 
   {% unless page.no_groups %}
     {% unless forloop.first %}</div>{% endunless %}

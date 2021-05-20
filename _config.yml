@@ -180,12 +180,6 @@ defaults:
    
   - scope:
       type:            projects
-      order:
-        - victim
-        - perp
-        - suspect
-        - law
-        - witness
     values:
       seo:
         type:          WebPage

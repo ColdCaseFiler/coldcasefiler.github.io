@@ -7,7 +7,7 @@ date: 2 Sept 1900
 description: >
   70 year old Retiree from Louisville.
 image: 
-  path: /assets/img/people/john-doe.jpg
+  path: /assets/img/people/jim-doe.jpg
 accent_color: '#7C5F39'
 sitemap: true
 ---

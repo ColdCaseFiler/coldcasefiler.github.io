@@ -14,10 +14,9 @@ layout: page
 {% assign no_third_column = page.no_third_column | default:site.hydejack.no_third_column | default:false %}
 
 
-{% if page.no_groups %}<div class="columns {% unless no_third_column %}columns-break{% endunless %}">{% endif %}
+{% if page.no_groups %}<div class="columns {% unless no_third_column %}columns-break{% endunless %}"></div>{% endif %}
 {% for project in ordered_projects %}
   {% unless page.no_groups %}
-    {% unless forloop.first %}</div>{% endunless %}
     <h2 id="{{ projects_group_by | slugify }}-{{ current_category | slugify }}" class="hr-bottom">{{ current_category | replace: '0','' | replace: '1','' | replace: '2','' | replace: '3','' | replace: '4','' | lstrip }}</h2>
     <div class="columns {% unless no_third_column %}columns-break{% endunless %}">
 {% endunless %}

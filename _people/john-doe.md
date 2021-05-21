@@ -4,7 +4,7 @@ title: John Doe
 caption: Victim
 category: 0 Victim
 description: >
-  John was a 37 year old Bricklayer from Louisville.
+  37 year old Bricklayer from Louisville.
 date: 1 Jun 2020
 image: 
   path: /assets/img/people/john-doe.jpg
@@ -18,18 +18,15 @@ links:
 accent_color: '#56bf56'
 sitemap: true
 ---
-Details:
+| **Home:** | 1 Doe St, Doetown |
 
-### Home: 1 Doe St, Doetown
+| **Work:** | McDonald's Restautant (Main and Doe St) |
 
-### Work: 
-McDonald's Restautant (Main and Doe St)
+| **School:** | Doetown High |
 
-school: Doetown High
+| **Relationship:** | Single |
 
-relationship: single
-
-family:
+**Family:**
 
 clubs: none
 

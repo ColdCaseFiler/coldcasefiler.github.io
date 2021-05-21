@@ -3,7 +3,7 @@ layout: project
 title: Mark Lee
 caption: Victim's Neighbour
 category: 0 Victim
-date: 6 Jan 1900
+date: 4 Sept 1900
 description: >
   62 year old Retiree from Louisville.
 image: 

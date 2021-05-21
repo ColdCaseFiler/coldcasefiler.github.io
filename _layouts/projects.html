@@ -23,7 +23,7 @@ layout: page
     <h2 id="{{ projects_group_by | slugify }}-{{ current_category | slugify }}" class="hr-bottom">{{ current_category | replace: '0','' | replace: '1','' | replace: '2','' | replace: '3','' | replace: '4','' | lstrip }}</h2>
     <div class="columns {% unless no_third_column %}columns-break{% endunless %}">
     {% assign prev_category = current_category %}
-{% end if %}{% endunless %}
+{% endif %}{% endunless %}
 
   {% assign featured = page.featured | default:project.featured | default:page.big_project | default:project.big_project %}
   <div class="column {% if featured %}column-1{% else %}column-1-2{% endif %}">

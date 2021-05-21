@@ -20,7 +20,7 @@ layout: page
   {% unless page.no_groups %}{% if current_category != prev_category %}
     {% unless forloop.first %}</div>{% endunless %}
 
-    <h2 id="{{ projects_group_by | slugify }}-{{ current_category | slugify }}" class="hr-bottom">{{ current_category | replace: '0','' | replace: '1','' | replace: '2','' | replace: '3','' | replace: '4','' | lstrip }}</h2>
+    <h2 id="{{ projects_group_by | slugify }}-{{ current_category | slugify }}" class="hr-bottom">{{ current_category | replace: '0','' | replace: '1','' | replace: '2','' | replace: '3','' | replace: '4','' | replace: '5','' | replace: '6','' | replace: '7','' | replace: '8','' | replace: '9','' | lstrip }}</h2>
     <div class="columns {% unless no_third_column %}columns-break{% endunless %}">
     {% assign prev_category = current_category %}
 {% endif %}{% endunless %}

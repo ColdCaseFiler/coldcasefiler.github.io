@@ -16,13 +16,6 @@ layout: page
 
 {% if page.no_groups %}<div class="columns {% unless no_third_column %}columns-break{% endunless %}">{% endif %}
 {% for project in ordered_projects %}
-  
-  {% for c in site.colors %}
-    .text-{{c[0]}}     { accent-color: {{ c[1] }}; }
-  {% endfor %}
-  {% capture color_code %}{% if site.color_code[project.accent_color] %}{{ site.color_code[project.accent_color] }}{% else %}{{ project.accent_color }}{% endif %}{% endcapture %}
-  
-  {% assign current_category = project.category | category:projects_group_by %}
 
   {% unless page.no_groups %}
     {% unless forloop.first %}</div>{% endunless %}

@@ -18,10 +18,12 @@ links:
 accent_color: '#56bf56'
 sitemap: true
 ---
-## Home: 
+Details:
+
+### Home: 
 1 Doe St, Doetown
 
-## Work: 
+### Work: 
 McDonald's Restautant (Main and Doe St)
 
 school: Doetown High

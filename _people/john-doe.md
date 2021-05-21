@@ -19,7 +19,6 @@ accent_color: '#56bf56'
 sitemap: true
 ---
 | :--- | ---: |
-
 | **Sex:** | Male |
 | **Race:** | White |
 | **Hair Color:** | Brown |
@@ -31,6 +30,7 @@ sitemap: true
 | **Age (at time of crime):** | 20 |
 | **Date of Death:** | 1990-04-15 (est) |
 
+| :--- | ---: |
 | **Home:** | 1 Doe St, Doetown |
 | **Work:** | McDonald's Restautant (Main and Doe St) |
 | **School:** | Doetown High |
@@ -38,4 +38,5 @@ sitemap: true
 | **Family:** | |
 | **Clubs:** | none |
 
+| :--- | ---: |
 | **Vehicle:** | 1988 Chevrolet Cavalier, Red, 2-door |

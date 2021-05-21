@@ -8,10 +8,6 @@ description: >
 date: 1 Jun 2020
 image: 
   path: /assets/img/people/john-doe.jpg
-  srcset: 
-    1920w: /assets/img/people/john-doe.jpg
-    960w: /assets/img/people/john-doe.jpg
-    480w: /assets/img/people/john-doe.jpg
 accent_color: '#56BF56'
 sitemap: true
 ---

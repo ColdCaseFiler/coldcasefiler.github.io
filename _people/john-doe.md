@@ -18,7 +18,7 @@ links:
 accent_color: '#56bf56'
 sitemap: true
 ---
-| --- | --- |
+| :--- | ---: |
 
 | **Home:** | 1 Doe St, Doetown |
 
@@ -28,48 +28,29 @@ sitemap: true
 
 | **Relationship:** | Single |
 
-**Family:**
+| **Family:** | |
 
-clubs: none
+| **Clubs:** | none |
 
-vehicle: 1988 Chevrolet Cavalier, Red, 2-door
+| **Vehicle:** | 1988 Chevrolet Cavalier, Red, 2-door |
 
-sex: Male
+| **Sex:** | Male |
 
-race: White
+| **Race:** | White |
 
-hair_color: Brown
+| **Hair Color:** | Brown |
 
-eye_color: Brown
+| **Eye Color:** | Brown |
 
-height: 5'10"
+| **Height:** | 5'10" |
 
-weight: 160lbs
+| **Weight:** | 160lbs |
 
-notable_features: Tattoo on left bicep, birthmark on right shoulder
+| **Notable Features:** | Tattoo on left bicep, birthmark on right shoulder |
 
-Date of Birth: 
-1970-08-11
+| **Date of Birth:** | 1970-08-11 |
 
-Age (at time of crime): 20
+| **Age (at time of crime):** | 20 |
 
-Date of Death: 
-1990-04-15 (estimated)
-
-Physical:
-
-
-
-Locations:
-
-
-
-Associations:
-
-
-
-Other:
-
-
-
+| **Date of Death:** | 1990-04-15 (est) |
 

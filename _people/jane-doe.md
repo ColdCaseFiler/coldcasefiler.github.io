@@ -3,7 +3,7 @@ layout: project
 title: Jane Doe
 caption: Victim's Mother
 category: 0 Victim
-date: 18 Sept 1902
+date: 3 Jan 1900
 description: >
   62 year old Retiree from Louisville.
 image: 

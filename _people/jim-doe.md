@@ -15,7 +15,7 @@ sitemap: true
   width: 50%;
   }
   
-<div class="row">
+<div class="columns">
   <div class="column" markdown="1">
     
     |------|---------|

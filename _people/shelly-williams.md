@@ -3,7 +3,7 @@ layout: project
 title: Shelly Williams
 caption: Victim's Coworker
 category: 0 Victim
-date: 3 Jan 1901
+date: 5 Sept 1900
 description: >
   62 year old Retiree from Louisville.
 image: 

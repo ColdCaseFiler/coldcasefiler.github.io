@@ -31,6 +31,7 @@ sitemap: true
 | **Age (at time of crime):** | 20 |
 | **Date of Death:** | 1990-04-15 (est) |
 </article>
+
 <aside>
 | :--- | ---: |
 | **Home:** | 1 Doe St, Doetown |
@@ -40,5 +41,6 @@ sitemap: true
 | **Family:** | |
 | **Clubs:** | none |
 </aside>
+
 | :--- | ---: |
 | **Vehicle:** | 1988 Chevrolet Cavalier, Red, 2-door |

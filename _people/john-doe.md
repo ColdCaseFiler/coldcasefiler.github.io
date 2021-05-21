@@ -5,7 +5,9 @@ caption: Victim
 category: 0 Victim
 description: >
   37 year old Bricklayer from Louisville.
-links:
+links:   
+  - title: Link
+    url: https://qwtel.com/
 image: 
   path: /assets/img/people/john-doe.jpg
 accent_color: '#56BF56'

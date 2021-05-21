@@ -20,37 +20,22 @@ sitemap: true
 ---
 | :--- | ---: |
 
+| **Sex:** | Male |
+| **Race:** | White |
+| **Hair Color:** | Brown |
+| **Eye Color:** | Brown |
+| **Height:** | 5'10" |
+| **Weight:** | 160lbs |
+| **Notable Features:** | Tattoo on left bicep, birthmark on right shoulder |
+| **Date of Birth:** | 1970-08-11 |
+| **Age (at time of crime):** | 20 |
+| **Date of Death:** | 1990-04-15 (est) |
+
 | **Home:** | 1 Doe St, Doetown |
-
 | **Work:** | McDonald's Restautant (Main and Doe St) |
-
 | **School:** | Doetown High |
-
 | **Relationship:** | Single |
-
 | **Family:** | |
-
 | **Clubs:** | none |
 
 | **Vehicle:** | 1988 Chevrolet Cavalier, Red, 2-door |
-
-| **Sex:** | Male |
-
-| **Race:** | White |
-
-| **Hair Color:** | Brown |
-
-| **Eye Color:** | Brown |
-
-| **Height:** | 5'10" |
-
-| **Weight:** | 160lbs |
-
-| **Notable Features:** | Tattoo on left bicep, birthmark on right shoulder |
-
-| **Date of Birth:** | 1970-08-11 |
-
-| **Age (at time of crime):** | 20 |
-
-| **Date of Death:** | 1990-04-15 (est) |
-

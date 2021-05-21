@@ -14,7 +14,7 @@ sitemap: true
 
 ## Details:
 
-| ----: | :---- | ----: | :----- |
+|----:|:----|----:|:-----|
 | **Home:** | 1 Doe St, Doetown | **Age (at time of crime):** | 20 |
 | **Work:** | Manager @ McDonald's Restaurant | **Date of Birth:** | 1970-08-11 |
 | **School:** | Doetown High | **Date of Death:** | 1990-04-15 (est) |

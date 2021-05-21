@@ -3,7 +3,7 @@ layout: project
 title: John Doe
 caption: Victim
 category: 0 Victim
-date: 1 Jan 1901
+date: 1 Sept 1900
 description: >
   37 year old Bricklayer from Louisville.
 image: 

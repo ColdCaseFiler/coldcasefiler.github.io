@@ -12,9 +12,6 @@ image:
     1920w: /assets/img/people/john-doe.jpg
     960w: /assets/img/people/john-doe.jpg
     480w: /assets/img/people/john-doe.jpg
-links:
-  - title: Link
-    url: https://qwtel.com/
 accent_color: '#56BF56'
 sitemap: true
 ---

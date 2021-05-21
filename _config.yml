@@ -88,7 +88,20 @@ theme: jekyll-theme-hydejack
 
 # Customizaton
 # ----------------------------------------------------------------------------------------
- 
+
+# Color Code for Projects.
+color_code:
+  law: '#75C4FF' # Blue
+  perp: '#FF7575' # Red
+  suspect: '#FFC475' # Orange
+  victim: '#56BF56' # Green
+  friend: '#FFFF75' # Yellow
+  neighbour: '#FFFFFF' # White
+  witness: '#7575FF' # Purple
+  family: '#7C5F39' # Brown
+  coworker: '#858585' # Grey
+  relationship: '#FF75FF' # Pink
+
 # Sidebar image and theme color of the site.
 accent_image:          /assets/img/sidebar-bg.png
 accent_color:          rgb(79,177,186)

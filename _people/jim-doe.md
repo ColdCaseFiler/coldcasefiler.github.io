@@ -11,19 +11,19 @@ image:
 accent_color: '#7C5F39'
 sitemap: true
 ---
-<span class="columns">
-  <div class="column" align="left" markdown="1">
+<div class="row">
+  <div class="column" markdown="1">
     
     |------|---------|
     | **Home:** | 22 Dove St, Doetown |
     | **Work:** | Retired |
     
   </div>
-  <div class="column" align="right" markdown="1">
+  <div class="column" markdown="1">
     
     |----------|---------|
     | **Sex:** | Male |
     | **Age:** | 70 |
     
   </div>
-</span>
+</div>

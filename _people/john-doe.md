@@ -27,5 +27,5 @@ sitemap: true
 | **Family:** | Jim Doe (father) <br /> Jane Doe (mother) <br /> Steve Doe (brother) | **Race:** | Caucasian |
 | **Clubs:** | none | **Hair Color:** | Brown |
 | **Vehicle:** | 1988 Chevrolet Cavalier, Red, 2-door | **Eye Color:** | Brown |
-| **Notable Features:** | Tattoo on left bicep, birthmark on right shoulder | **Height:** | 5'10" |
+| **Notable Features:** | Tattoo on left bicep <br /> Birthmark on right shoulder | **Height:** | 5'10" |
 | **Notes:** | |  **Weight:** | 160lbs |

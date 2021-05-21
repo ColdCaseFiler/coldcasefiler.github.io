@@ -19,7 +19,7 @@ accent_color: '#56bf56'
 sitemap: true
 ---
 
-| :--- | ---: |
+| ---: | :--- |
 | **Sex:** | Male |
 | **Race:** | White |
 | **Hair Color:** | Brown |

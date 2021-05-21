@@ -18,7 +18,7 @@ links:
 accent_color: '#56bf56'
 sitemap: true
 ---
-
+<article>
 | :--- | ---: |
 | **Sex:** | Male |
 | **Race:** | White |
@@ -30,7 +30,8 @@ sitemap: true
 | **Date of Birth:** | 1970-08-11 |
 | **Age (at time of crime):** | 20 |
 | **Date of Death:** | 1990-04-15 (est) |
-
+</article>
+<aside>
 | :--- | ---: |
 | **Home:** | 1 Doe St, Doetown |
 | **Work:** | McDonald's Restautant (Main and Doe St) |
@@ -38,6 +39,6 @@ sitemap: true
 | **Relationship:** | Single |
 | **Family:** | |
 | **Clubs:** | none |
-
+</aside>
 | :--- | ---: |
 | **Vehicle:** | 1988 Chevrolet Cavalier, Red, 2-door |

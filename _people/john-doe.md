@@ -18,7 +18,7 @@ links:
 accent_color: '#56bf56'
 sitemap: true
 ---
-|---|---|
+| --- | --- |
 
 | **Home:** | 1 Doe St, Doetown |
 

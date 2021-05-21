@@ -21,6 +21,7 @@ layout: page
     .bg-{{c[0]}}     { accent-color: {{ c[1] }}; }
   {% endfor %}
   {% capture color_code %}{% if site.color_code[project.accent_color] %}{{ site.color_code[project.accent_color] }}{% else %}{{ project.accent_color }}{% endif %}{% endcapture %}
+  #{{project.accent_color}} { accent-color: {{ color_code }}; }
   
   {% assign current_category = project.category | category:projects_group_by %}
 

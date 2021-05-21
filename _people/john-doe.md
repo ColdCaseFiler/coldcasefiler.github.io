@@ -9,6 +9,7 @@ image:
   path: /assets/img/people/john-doe.jpg
 accent_color: '#56BF56'
 sitemap: true
+featured: true
 ---
 # John Doe
 

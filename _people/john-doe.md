@@ -5,7 +5,7 @@ caption: Victim
 category: 0 Victim
 description: >
   37 year old Bricklayer from Louisville.
-date: 1 Jun 2020
+links:
 image: 
   path: /assets/img/people/john-doe.jpg
 accent_color: '#56BF56'

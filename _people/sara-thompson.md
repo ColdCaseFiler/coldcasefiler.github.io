@@ -4,7 +4,7 @@ title: Sara Thompson
 caption: Detective
 category: 3 Law
 description: >
-  Sara Thompson was the lead detective assigned to the case.
+  Lead detective assigned to the case.
 date: 1 Jun 2020
 image: 
   path: /assets/img/people/sara-thompson.jpg

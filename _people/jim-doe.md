@@ -3,7 +3,7 @@ layout: project
 title: Jim Doe
 caption: Victim's Father
 category: 0 Victim
-date: 2 Jan 1900
+date: 02 Jan 1900
 description: >
   70 year old Retiree from Louisville.
 image: 

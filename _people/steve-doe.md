@@ -3,7 +3,7 @@ layout: project
 title: Steve Doe
 caption: Victim's Brother
 category: 0 Victim
-date: 18 Sept 1903
+date: 4 Jan 1900
 description: >
   62 year old Retiree from Louisville.
 image: 

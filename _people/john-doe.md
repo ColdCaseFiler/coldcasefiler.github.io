@@ -18,8 +18,10 @@ links:
 accent_color: '#56BF56'
 sitemap: true
 ---
+## John Doe
 
-## Details:
+### Details:
+
 | ----: | :---- | ----: | :---- |
 | **Home:** | 1 Doe St, Doetown | **Age (at time of crime):** | 20 |
 | **Work:** | Manager @ McDonald's Restaurant | **Date of Birth:** | 1970-08-11 |
@@ -31,4 +33,4 @@ sitemap: true
 | **Notable Features:** | Tattoo on left bicep <br> Birthmark on right shoulder | **Height:** | 5'10" |
 | **Notes:** | John was well liked by friends and family. <br> No known enemies, no prior criminal history. |  **Weight:** | 160lbs |
 
-## Notes:
+### Notes:

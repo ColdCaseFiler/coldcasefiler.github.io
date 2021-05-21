@@ -20,8 +20,7 @@ sitemap: true
 ---
 Details:
 
-### Home: 
-1 Doe St, Doetown
+### Home: 1 Doe St, Doetown
 
 ### Work: 
 McDonald's Restautant (Main and Doe St)

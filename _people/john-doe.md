@@ -15,7 +15,7 @@ image:
 links:
   - title: Link
     url: https://qwtel.com/
-accent_color: victim
+accent_color: '#56BF56'
 sitemap: true
 ---
 

@@ -11,7 +11,7 @@ image:
 accent_color: '#7C5F39'
 sitemap: true
 ---
-<div class="columns">
+<span class="columns">
   <div class="column" align="left" markdown="1">
     
     |------|---------|
@@ -26,4 +26,4 @@ sitemap: true
     | **Age:** | 70 |
     
   </div>
-</div>
+</span>

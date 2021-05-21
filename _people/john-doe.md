@@ -28,4 +28,4 @@ sitemap: true
 | **Clubs:** | none | **Hair Color:** | Brown |
 | **Vehicle:** | 1988 Chevrolet Cavalier, Red, 2-door | **Eye Color:** | Brown |
 | **Notable Features:** | Tattoo on left bicep, birthmark on right shoulder | **Height:** | 5'10" |
-| **Notes** | |  **Weight:** | 160lbs |
+| **Notes:** | |  **Weight:** | 160lbs |

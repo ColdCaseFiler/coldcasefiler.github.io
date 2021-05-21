@@ -13,7 +13,7 @@ srcset:
   960w: /assets/img/people/jim-davies.jpg
   480w: /assets/img/people/jim-davies.jpg
 sitemap: true
-accent_color: '#ffc475'
+accent_color: law
 featured: false
 ---
 

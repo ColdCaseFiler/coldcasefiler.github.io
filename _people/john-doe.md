@@ -31,6 +31,6 @@ sitemap: true
 | **Clubs:** | none | **Hair Color:** | Brown |
 | **Vehicle:** | 1988 Chevrolet Cavalier, Red, 2-door | **Eye Color:** | Brown |
 | **Notable Features:** | Tattoo on left bicep <br> Birthmark on right shoulder | **Height:** | 5'10" |
-| **Notes:** | John was well liked by friends and family. <br> No known enemies, no prior criminal history. |  **Weight:** | 160lbs |
+|  |  |  **Weight:** | 160lbs |
 
 ## Notes:

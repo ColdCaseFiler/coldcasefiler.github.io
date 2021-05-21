@@ -11,6 +11,10 @@ image:
 accent_color: '#7C5F39'
 sitemap: true
 ---
+.column {
+  width: 50%;
+  }
+  
 <div class="row">
   <div class="column" markdown="1">
     

@@ -13,7 +13,7 @@ srcset:
   960w: /assets/img/people/unknown.jpg
   480w: /assets/img/people/unknown.jpg
 sitemap: true
-accent_color: perp
+accent_color: '#FF7575'
 featured: false
 ---
 

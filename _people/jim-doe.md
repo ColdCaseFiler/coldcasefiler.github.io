@@ -11,7 +11,7 @@ image:
 accent_color: '#7C5F39'
 sitemap: true
 ---
-<div class="columns {% unless no_third_column %}columns-break{% endunless %}">
+<div class="columns">
   <div class="column column-3-5">
     |------|---------|
     | **Home:** | 22 Dove St, Doetown |

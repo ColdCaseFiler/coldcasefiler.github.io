@@ -84,9 +84,9 @@ layout: base
       {% for sec in l_col %}
         {% case sec %}
         {% when 'home' %}
-         <span><b>Home:</b> {{ project.home }}</span>
+         <div><b>Home:</b> {{ project.home }}</div>
         {% when 'work' %}
-         <span><b>Work:</b> {{  project.work }}</span>
+         <div><b>Work:</b> {{  project.work }}</div>
         {% when 'school' %}
           {{  project.school }}
         {% when 'relationship' %}

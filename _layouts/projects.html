@@ -13,7 +13,7 @@ layout: page
 {% assign projects_group_by = project.category | default:"victim" %}
 {% assign no_third_column = page.no_third_column | default:site.hydejack.no_third_column | default:false %}
 
-{% assign prev_category = '' %}
+{% assign prev_category = 'victim' %}
 {% if page.no_groups %}<div class="columns {% unless no_third_column %}columns-break{% endunless %}">{% endif %}
 {% for project in ordered_projects %}
   {% assign current_category = project.category | category:projects_group_by %}

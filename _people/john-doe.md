@@ -30,12 +30,10 @@ work: Manager @ McDonald's Restaurant
 school: Doetown High
 relationship: Single
 family: 
-  - name: Jim Doe (father)
-    url: /people/jim-doe
-  - name: Jane Doe (mother)
-    url: /people/jane-doe
-  - name: Steve Doe (brother)
-    url: /people/steve-doe
+  - Jim Doe (father)
+  - Jane Doe (mother)
+  - Steve Doe (brother)
+ 
 clubs: none
 interests: fishing
 vehicle: 1988 Chevrolet Cavalier, Red, Coupe

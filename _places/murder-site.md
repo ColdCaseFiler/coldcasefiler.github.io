@@ -8,7 +8,7 @@ description: >
   While Hydejack is built for personal sites, it's versatility allows it to be used a product page as well.
 date: '01-01-2016'
 image: 
-  path: /assets/img/people/john-doe.jpg
+  path: /assets/img/places/murder-site.jpg
 links:
   - title: Link
     url: https://hydejack.com/

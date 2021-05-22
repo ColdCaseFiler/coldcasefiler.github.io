@@ -1,5 +1,6 @@
 ---
 layout: project
+type: person
 title: Witness 1
 caption: Witness
 category: 4 Witness

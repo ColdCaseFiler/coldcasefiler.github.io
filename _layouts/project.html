@@ -203,7 +203,8 @@ layout: base
         </td>
       </tr>
     </table>
-  {% elsif project.type: 'place' %}
+  {% endit %}
+  {% if project.type: 'place' %}
   <h2 class="hr-bottom">Map:</h2>
     {{ project.map }}
   {% endif %}

@@ -14,7 +14,6 @@ image:
   path: /assets/img/people/john-doe.jpg
 accent_color: '#56BF56'
 
-
 age: 20
 dateofbirth: 1970-08-11
 dateofdeath: 1990-04-15 (est)

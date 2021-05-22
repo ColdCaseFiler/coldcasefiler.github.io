@@ -74,7 +74,7 @@ layout: base
     {% if project.caption %}<meta property="disambiguatingDescription" content="{{ project.caption }}"/>{% endif %}
   </header>
   <h2 class="hr-bottom">Details:</h2>
-  {% if project.type = 'person' %}
+  {% if project.type: 'person' %}
     <table>
       <tr>
         <td>

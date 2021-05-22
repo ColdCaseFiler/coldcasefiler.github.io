@@ -198,7 +198,7 @@ layout: base
         <b>Notable Features:</b>
       </td>
       <td>
-        {{ project.notable_features }}
+        {{ project.notable_features | replace: ',' , '<br>' | replace: '"','' | replace: '[','' | replace: ']','' }}
       </td>
     </tr>
   </table>

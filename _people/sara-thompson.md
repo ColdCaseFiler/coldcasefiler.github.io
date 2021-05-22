@@ -1,5 +1,6 @@
 ---
 layout: project
+type: person
 title: Sara Thompson
 caption: Detective
 category: 3 Law

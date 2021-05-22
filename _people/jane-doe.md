@@ -1,5 +1,6 @@
 ---
 layout: project
+type: person
 title: Jane Doe
 caption: Victim's Mother
 category: 0 Victim

@@ -1,5 +1,6 @@
 ---
 layout: project
+type: place
 title: 'Murder Site'
 caption: Location of Homicide.
 description: >

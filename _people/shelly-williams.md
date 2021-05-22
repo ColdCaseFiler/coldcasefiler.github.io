@@ -1,5 +1,6 @@
 ---
 layout: project
+type: person
 title: Shelly Williams
 caption: Victim's Coworker
 category: 0 Victim

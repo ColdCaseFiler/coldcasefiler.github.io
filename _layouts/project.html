@@ -74,29 +74,22 @@ layout: base
     {% if project.caption %}<meta property="disambiguatingDescription" content="{{ project.caption }}"/>{% endif %}
   </header>
   
-  <div class="columns {% unless no_third_column %}columns-break{% endunless %}">
-    {% assign l_col = page.left_column %}
-    {% assign r_col = page.right_column %}
-    {% unless l_col %}{% assign l_col = 'title' | split:',' %}{% endunless %}
-    {% unless r_col %}{% assign r_col = 'caption' | split:',' %}{% endunless %}
-    
-    <div class="column column-3-5">
-      {% for sec in l_col %}
-        {% case sec %}
-        {% when 'title' %}
-          <p>{{ project.title }}</p>  
-        {% endcase %}
-      {% endfor %}
-    </div>
-    <div class="column column-2-5">
-      {% for sec in r_col %}
-        {% case sec %}
-        {% when 'caption' %}
-          <p>{{ project.caption }}</p>  
-        {% endcase %}
-      {% endfor %}   
-    </div>
-  </div>
+  <table>
+    <tr>
+      <td>
+        <b>Name:</b>
+      </td>
+      <td>
+        {{ project.title }}
+      </td>
+      <td>
+        <b>Caption:</b>
+      </td>
+      <td>
+        {{ project.caption }}
+      </td>
+    </tr>
+  </table>
 
   {{ content }}
 </article>

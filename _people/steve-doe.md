@@ -1,5 +1,6 @@
 ---
 layout: project
+type: person
 title: Steve Doe
 caption: Victim's Brother
 category: 0 Victim

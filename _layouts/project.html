@@ -74,134 +74,136 @@ layout: base
     {% if project.caption %}<meta property="disambiguatingDescription" content="{{ project.caption }}"/>{% endif %}
   </header>
   <h2 class="hr-bottom">Details:</h2>
-  <table>
-    <tr>
-      <td>
-        <b>Age:</b>
-      </td>
-      <td>
-        {{ project.age }}
-      </td>
-      <td>
-        <b>Home:</b>
-      </td>
-      <td>
-        {{ project.home }}
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <b>Date of Birth:</b>
-      </td>
-      <td>
-        {{ project.dateofbirth }}
-      </td>
-      <td>
-        <b>Work:</b>
-      </td>
-      <td>
-        {{ project.work }}
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <b>Date of Death:</b>
-      </td>
-      <td>
-        {{ project.dateofdeath }}
-      </td>
-      <td>
-        <b>School:</b>
-      </td>
-      <td>
-        {{ project.school }}
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <b>Sex:</b>
-      </td>
-      <td>
-        {{ project.sex }}
-      </td>
-      <td>
-        <b>Relationship:</b>
-      </td>
-      <td>
-        {{ project.relationship }}
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <b>Race:</b>
-      </td>
-      <td>
-        {{ project.race }}
-      </td>
-      <td>
-        <b>Family:</b>
-      </td>
-      <td>
-        {{ project.family | replace: ',' , '<br>' | replace: '"','' | replace: '[','' | replace: ']','' | lstrip }}
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <b>Hair Color:</b>
-      </td>
-      <td>
-        {{ project.hair_color }}
-      </td>
-      <td>
-        <b>Affiliations:</b>
-      </td>
-      <td>
-        {{ project.affiliations }}
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <b>Eye Color:</b>
-      </td>
-      <td>
-        {{ project.eye_color }}
-      </td>
-      <td>
-        <b>Interests:</b>
-      </td>
-      <td>
-        {{ project.interests }}
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <b>Height:</b>
-      </td>
-      <td>
-        {{ project.height }}
-      </td>
-      <td>
-        <b>Vehicle:</b>
-      </td>
-      <td>
-        {{ project.vehicle }}
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <b>Weight:</b>
-      </td>
-      <td>
-        {{ project.weight }}
-      </td>
-      <td>
-        <b>Notable Features:</b>
-      </td>
-      <td>
-        {{ project.notable_features | replace: ',' , '<br>' | replace: '"','' | replace: '[','' | replace: ']','' | lstrip }}
-      </td>
-    </tr>
-  </table>
+  {% if project.type = 'person' %}
+    <table>
+      <tr>
+        <td>
+          <b>Age:</b>
+        </td>
+        <td>
+          {{ project.age }}
+        </td>
+        <td>
+          <b>Home:</b>
+        </td>
+        <td>
+          {{ project.home }}
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Date of Birth:</b>
+        </td>
+        <td>
+          {{ project.dateofbirth }}
+        </td>
+        <td>
+          <b>Work:</b>
+        </td>
+        <td>
+          {{ project.work }}
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Date of Death:</b>
+        </td>
+        <td>
+          {{ project.dateofdeath }}
+        </td>
+        <td>
+          <b>School:</b>
+        </td>
+        <td>
+          {{ project.school }}
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Sex:</b>
+        </td>
+        <td>
+          {{ project.sex }}
+        </td>
+        <td>
+          <b>Relationship:</b>
+        </td>
+        <td>
+          {{ project.relationship }}
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Race:</b>
+        </td>
+        <td>
+          {{ project.race }}
+        </td>
+        <td>
+          <b>Family:</b>
+        </td>
+        <td>
+          {{ project.family | replace: ',' , '<br>' | replace: '"','' | replace: '[','' | replace: ']','' | lstrip }}
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Hair Color:</b>
+        </td>
+        <td>
+          {{ project.hair_color }}
+        </td>
+        <td>
+          <b>Affiliations:</b>
+        </td>
+        <td>
+          {{ project.affiliations }}
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Eye Color:</b>
+        </td>
+        <td>
+          {{ project.eye_color }}
+        </td>
+        <td>
+          <b>Interests:</b>
+        </td>
+        <td>
+          {{ project.interests }}
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Height:</b>
+        </td>
+        <td>
+          {{ project.height }}
+        </td>
+        <td>
+          <b>Vehicle:</b>
+        </td>
+        <td>
+          {{ project.vehicle }}
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Weight:</b>
+        </td>
+        <td>
+          {{ project.weight }}
+        </td>
+        <td>
+          <b>Notable Features:</b>
+        </td>
+        <td>
+          {{ project.notable_features | replace: ',' , '<br>' | replace: '"','' | replace: '[','' | replace: ']','' | lstrip }}
+        </td>
+      </tr>
+    </table>
+  {% endif %}
   <h2 class="hr-bottom">Notes:</h2>
   {{ content }}
 </article>

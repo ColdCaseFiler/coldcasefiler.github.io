@@ -1,7 +1,7 @@
 ---
 layout: project
 type: place
-map: 
+map: <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1-_L86MZm4qn7-NR5lqFZTYeos2QeiKFL" width="640" height="480"></iframe>
 title: 'Murder Site'
 caption: Location of Homicide.
 description: >

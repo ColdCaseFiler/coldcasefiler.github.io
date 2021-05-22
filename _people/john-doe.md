@@ -1,5 +1,8 @@
 ---
 layout: project
+sitemap: true
+featured: true
+
 type: person
 title: John Doe
 caption: Victim
@@ -10,8 +13,7 @@ description: >
 image: 
   path: /assets/img/people/john-doe.jpg
 accent_color: '#56BF56'
-sitemap: true
-featured: true
+
 
 age: 20
 dateofbirth: 1970-08-11

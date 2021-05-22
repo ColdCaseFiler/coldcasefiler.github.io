@@ -14,4 +14,5 @@ links:
     url: https://hydejack.com/
 sitemap: true
 tags: [victim]
+accent_color: '#FF7575'
 ---

@@ -1,5 +1,6 @@
 ---
 layout: project
+type: person
 title: Jim Doe
 caption: Victim's Father
 category: 0 Victim

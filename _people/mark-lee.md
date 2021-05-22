@@ -1,5 +1,6 @@
 ---
 layout: project
+type: person
 title: Mark Lee
 caption: Victim's Neighbour
 category: 0 Victim

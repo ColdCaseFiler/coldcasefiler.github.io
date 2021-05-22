@@ -34,7 +34,7 @@ family:
   - Jane Doe (mother)
   - Steve Doe (brother)
  
-clubs: none
+affiliations: none
 interests: fishing
 vehicle: 1988 Chevrolet Cavalier, Red, Coupe
 ---

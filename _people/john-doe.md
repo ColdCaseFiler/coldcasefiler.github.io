@@ -12,10 +12,6 @@ accent_color: '#56BF56'
 sitemap: true
 featured: true
 ---
-# John Doe
-
-## Details:
-
 |----------:|:------------------|----------------------------:|:-----|
 | **Home:** | 1 Doe St, Doetown | **Age (at time of crime):** | 20 |
 | **Work:** | Manager @ McDonald's Restaurant | **Date of Birth:** | 1970-08-11 |
@@ -26,5 +22,3 @@ featured: true
 | **Vehicle:** | 1988 Chevrolet Cavalier, Red, 2-door | **Eye Color:** | Brown |
 | **Notable Features:** | Tattoo on left bicep <br> Birthmark on right shoulder | **Height:** | 5'10" |
 |  |  |  **Weight:** | 160lbs |
-
-## Notes:

@@ -21,18 +21,18 @@ hair_color: Brown
 eye_color: Brown
 height: 5'10"
 weight: 160lbs
-notable_features: 
-  - Tattoo on left bicep
-  - Birthmark on right shoulder
+notable_features: |
+  Tattoo on left bicep
+  Birthmark on right shoulder
 
 home: 1 Joetown, Joeville
 work: Manager @ McDonald's Restaurant
 school: Doetown High
 relationship: Single
-family: 
-  - Jim Doe (father)
-  - Jane Doe (mother)
-  - Steve Doe (brother)
+family: |
+  Jim Doe (father)
+  Jane Doe (mother)
+  Steve Doe (brother)
 clubs: none
 interests: fishing
 vehicle: 1988 Chevrolet Cavalier, Red, Coupe

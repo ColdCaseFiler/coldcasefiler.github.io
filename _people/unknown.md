@@ -1,5 +1,6 @@
 ---
 layout: project
+type: person
 title: Unknown
 caption: Perpetrator
 category: 1 Perpetrator

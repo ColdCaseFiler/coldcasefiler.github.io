@@ -142,7 +142,7 @@ layout: base
         <b>Family:</b>
       </td>
       <td>
-        {{ project.family }}
+        {{ project.family | replace: ',' , '<br>'}}
       </td>
     </tr>
     <tr>

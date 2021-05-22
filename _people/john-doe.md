@@ -1,5 +1,6 @@
 ---
 layout: project
+type: person
 title: John Doe
 caption: Victim
 category: 0 Victim

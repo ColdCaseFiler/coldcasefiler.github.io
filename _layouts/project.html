@@ -142,7 +142,7 @@ layout: base
         <b>Family:</b>
       </td>
       <td>
-        {{ project.family | replace: ',' , '<br>' | replace: '"','' | replace: '[','' | replace: ']',''}}
+        {{ project.family | replace: ',' , '<br>' | replace: '"','' | replace: '[','' | replace: ']','' | lstrip }}
       </td>
     </tr>
     <tr>
@@ -198,7 +198,7 @@ layout: base
         <b>Notable Features:</b>
       </td>
       <td>
-        {{ project.notable_features | replace: ',' , '<br>' | replace: '"','' | replace: '[','' | replace: ']','' }}
+        {{ project.notable_features | replace: ',' , '<br>' | replace: '"','' | replace: '[','' | replace: ']','' | lstrip }}
       </td>
     </tr>
   </table>

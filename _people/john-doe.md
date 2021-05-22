@@ -28,8 +28,8 @@ home: 1 Joetown, Joeville
 work: Manager @ McDonald's Restaurant
 school: Doetown High
 relationship: Single
-family: Jim Doe (father)
-  Jane Doe (mother)
+family: Jim Doe (father) <br>
+  Jane Doe (mother) <br>
   Steve Doe (brother)
 clubs: none
 interests: fishing

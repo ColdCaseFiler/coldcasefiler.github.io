@@ -263,9 +263,11 @@ layout: base
           </td>
         </tr>
         <tr>
-          {% for feature in project.notable_features %}
-            <p>{{ feature }}</p><br>
-          {% endfor %}
+          <td>
+            {% for feature in project.notable_features %}
+              <p>{{ feature }}</p><br>
+            {% endfor %}
+          </td>
         </tr>
       </table>
   

@@ -249,10 +249,12 @@ layout: base
   
   {% endif %}
   {% if project.type == 'place' %}
+    {% if project.map %}
   
     <h2 class="hr-bottom">Map:</h2>
       {{ project.map }}
   
+    {% endif %}  
   {% endif %}
   
   <h2 class="hr-bottom">Notes:</h2>

@@ -44,5 +44,5 @@ family:
 
 affiliations: none
 interests: fishing
-vehicle: 1988 Chevrolet Cavalier, Red, Coupe
+vehicle: 1988 Chevrolet Cavalier
 ---

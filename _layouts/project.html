@@ -187,7 +187,9 @@ layout: base
             <b>Interests:</b>
           </td>
           <td>
-            {{ project.interests }}
+            {% for interest in project.interests %}
+              <p>{{ interest }}</p><br>
+            {% endfor %}
           </td>
         </tr>
         <tr>

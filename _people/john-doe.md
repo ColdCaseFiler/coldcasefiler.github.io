@@ -50,6 +50,14 @@ family:
   - person: Steve Doe 
     relation: brother
 
+friends:
+
+neighbours:
+  - Mark Lee
+
+coworkers:
+  - Shelly Williams
+
 affiliations:
 
 interests: 

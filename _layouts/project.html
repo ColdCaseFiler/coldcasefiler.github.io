@@ -90,7 +90,7 @@ layout: base
           <td>
             {% for member in project.home %}
               {% assign memberlink = member.place | prepend: '/places/' | replace: ' ','-' | append: '/' | downcase | strip %}
-              <a href="{{ memberlink }}">{{ member.place }}, {{ member.area }}</a><br>
+              <a href="{{ memberlink }}">{{ member.place }}</a>, {{ member.area }}<br>
             {% endfor %}
           </td>
         </tr>
@@ -107,7 +107,7 @@ layout: base
           <td>
             {% for member in project.work %}
               {% assign memberlink = member.place | prepend: '/places/' | replace: ' ','-' | append: '/' | downcase | strip %}
-              <a href="{{ memberlink }}">{{ member.role }} at {{ member.place }}</a><br>
+              {{ member.role }} at <a href="{{ memberlink }}">{{ member.place }}</a><br>
             {% endfor %}
           </td>
         </tr>
@@ -138,7 +138,7 @@ layout: base
           <td>
             {% for member in project.relationship %}
               {% assign memberlink = member.person | prepend: '/people/' | replace: ' ','-' | append: '/' | downcase | strip %}
-              <a href="{{ memberlink }}">{{ member.person }} - {{ member.relation }}</a><br>
+              <a href="{{ memberlink }}">{{ member.person }}</a> - {{ member.relation }}<br>
             {% endfor %}
           </td>
         </tr>

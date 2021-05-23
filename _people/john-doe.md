@@ -27,19 +27,27 @@ notable_features:
   - Tattoo on left bicep 
   - Birthmark on right shoulder
 
-home: 1 Joetown St, Joeville
-work: Manager @ McDonald's Restaurant
-school: Doetown High
+home: 
+  - place: 1 Joetown St 
+    area: Joeville, USA
+    
+work:
+  - place: McDonalds Restaurant
+    role: Manager
+    
+school: 
+  - place: Doetown High
+    area: Doetown, USA
 
 family: 
 
-  - name: Jim Doe 
+  - person: Jim Doe 
     relation: Father 
     
-  - name: Jane Doe 
+  - person: Jane Doe 
     relation: Mother 
     
-  - name: Steve Doe 
+  - person: Steve Doe 
     relation: Brother
 
 affiliations: none

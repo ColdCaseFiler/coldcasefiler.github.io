@@ -145,7 +145,7 @@ layout: base
           </td>
           <td>
             {% for member in project.family %}
-              {% assign memberlink = member.name | prepend: '/people/' | replace: ' ','-' | append: '/' | strip %}
+              {% assign memberlink = member.name | prepend: '/people/' | replace: ' ','-' | append: '/' | downcase | strip %}
               <a href="{{ memberlink }}">{{ member.name }} - {{ member.relation }}</a><br>
             {% endfor %}
           </td>

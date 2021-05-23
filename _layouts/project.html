@@ -130,7 +130,10 @@ layout: base
             <b>Relationship:</b>
           </td>
           <td>
-            {{ project.relationship }}
+            {% for member in project.relationship %}
+              {% assign memberlink = member.name | prepend: '/people/' | replace: ' ','-' | append: '/' | downcase | strip %}
+              <a href="{{ memberlink }}">{{ member.name }} - {{ member.relation }}</a><br>
+            {% endfor %}
           </td>
         </tr>
         <tr>

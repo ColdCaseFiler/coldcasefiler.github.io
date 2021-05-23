@@ -28,7 +28,7 @@ notable_features: Tattoo on left bicep, Birthmark on right shoulder
 home: 1 Joetown, Joeville
 work: Manager @ McDonald's Restaurant
 school: Doetown High
-relationship: Single
+
 family: 
 
   - name: Jim Doe 

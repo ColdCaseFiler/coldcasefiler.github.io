@@ -192,7 +192,10 @@ layout: base
             <b>Vehicle:</b>
           </td>
           <td>
-            {{ project.vehicle }}
+            {% for vehicle in project.vehicle %}
+              {% assign vehicle = project.vehicle | lstrip | rstrip | replace: ' ','-' %}
+              <a href="{{ vehicle }}">{{ project.vehicle }}</a><br>
+            {% endfor %}
           </td>
         </tr>
         <tr>

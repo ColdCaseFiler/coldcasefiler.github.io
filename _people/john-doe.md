@@ -40,7 +40,6 @@ school:
     area: Doetown, USA
 
 family: 
-
   - person: Jim Doe 
     relation: Father 
     
@@ -52,6 +51,6 @@ family:
 
 affiliations: none
 interests: 
-  - fishing
+  - Fishing
 vehicle: 1988 Chevrolet Cavalier
 ---

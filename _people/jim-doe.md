@@ -27,11 +27,16 @@ notable_features:
 home: 21 Joetown, Joeville
 work: Retired
 school: 
-relationship: Married (Jane Doe)
+relationship: 
+  - name: Jane Doe
+    relation: Wife
 family: 
-  - John Doe - son
-  - Jane Doe - wife
-  - Steve Doe - son
+  - name: John Doe 
+    relation: Son
+  - name: Jane Doe 
+    relation: Wife
+  - name: Steve Doe 
+    relation: Son
  
 affiliations: Anglican Church
 interests: fishing

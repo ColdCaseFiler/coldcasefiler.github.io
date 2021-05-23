@@ -24,8 +24,11 @@ weight: 140lbs
 notable_features:
 
 
-home: 21 Joetown, Joeville
-work: Retired
+home: 
+  - place: 21 Joetown St 
+    area: Joeville
+    
+work:
 school: 
 relationship: 
   - person: Jane Doe
@@ -41,5 +44,5 @@ family:
  
 affiliations: Anglican Church
 interests: fishing
-vehicle: 1990 Oldsmobile, White, 4-door
+vehicle: 1990 Oldsmobile
 ---

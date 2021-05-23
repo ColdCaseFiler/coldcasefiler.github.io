@@ -193,7 +193,7 @@ layout: base
           </td>
           <td>
             {% for vehicle in project.vehicle %}
-              {% assign vehiclelink = project.vehicle | prepend: '/objects/' | replace: ' ','-' | append: '/' | downcase | strip %}
+              {% assign vehiclelink = vehicle | prepend: '/objects/' | replace: ' ','-' | append: '/' | downcase | strip %}
               <a href="{{ vehiclelink }}">{{ project.vehicle }}</a><br>
             {% endfor %}
           </td>

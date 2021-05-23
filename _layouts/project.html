@@ -105,7 +105,10 @@ layout: base
             <b>Work:</b>
           </td>
           <td>
-            {{ project.work }}
+            {% for member in project.work %}
+              {% assign memberlink = member.place | prepend: '/places/' | replace: ' ','-' | append: '/' | downcase | strip %}
+              <a href="{{ memberlink }}">{{ member.role }} at {{ member.place }}</a><br>
+            {% endfor %}
           </td>
         </tr>
         <tr>

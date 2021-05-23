@@ -8,7 +8,7 @@ description: >
   Photo by <a href="https://unsplash.com/@anniespratt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Annie Spratt</a> on <a href="https://unsplash.com/s/photos/forest-road?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 date: '01-01-2016'
 image: 
-  path: /assets/img/places/murder-site.jpg
+  path: /assets/img/places/murder-site.png
 links:
   - title: Link
     url: https://hydejack.com/

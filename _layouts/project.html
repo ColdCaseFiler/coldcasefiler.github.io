@@ -96,149 +96,117 @@ layout: base
             <b>Date of Birth:</b>
           </td>
           <td>
-            {% if project.dateofbirth %}
-              {{ project.dateofbirth }}
-            {% endif %}
+            {{ project.dateofbirth }}
           </td>
           <td>
-            {% if project.work %}
-              <b>Work:</b>
-            </td>
-            <td>
-              {{ project.work }}
-            {% endif %}
+            <b>Work:</b>
+          </td>
+          <td>
+            {{ project.work }}
           </td>
         </tr>
         <tr>
           <td>
-            {% if project.dateofdeath %}
-              <b>Date of Death:</b>
-            </td>
-            <td>
-              {{ project.dateofdeath }}
-            {% endif %}
+            <b>Date of Death:</b>
           </td>
           <td>
-            {% if project.school %}
-              <b>School:</b>
-            </td>
-            <td>
-              {{ project.school }}
-            {% endif %}
+            {{ project.dateofdeath }}
+          </td>
+          <td>
+            <b>School:</b>
+          </td>
+          <td>
+            {{ project.school }}
           </td>
         </tr>
         <tr>
           <td>
-            {% if project.sex %}
-              <b>Sex:</b>
-            </td>
-            <td>
-              {{ project.sex }}
-            {% endif %}
+            <b>Sex:</b>
           </td>
           <td>
-            {% if project.relationship %}
-              <b>Relationship:</b>
-            </td>
-            <td>
-              {% for member in project.relationship %}
-                {% assign memberlink = member.name | prepend: '/people/' | replace: ' ','-' | append: '/' | downcase | strip %}
-                <a href="{{ memberlink }}">{{ member.name }} - {{ member.relation }}</a><br>
-              {% endfor %}
-            {% endif %}
+            {{ project.sex }}
+          </td>
+          <td>
+            <b>Relationship:</b>
+          </td>
+          <td>
+            {% for member in project.relationship %}
+              {% assign memberlink = member.name | prepend: '/people/' | replace: ' ','-' | append: '/' | downcase | strip %}
+              <a href="{{ memberlink }}">{{ member.name }} - {{ member.relation }}</a><br>
+            {% endfor %}
           </td>
         </tr>
         <tr>
           <td>
-            {% if project.race %}
-              <b>Race:</b>
-            </td>
-            <td>
-              {{ project.race }}
-              {% endif %}
+            <b>Race:</b>
           </td>
           <td>
-            {% if project.family %}
-              <b>Family:</b>
-            </td>
-            <td>
-              {% for member in project.family %}
-                {% assign memberlink = member.name | prepend: '/people/' | replace: ' ','-' | append: '/' | downcase | strip %}
-                <a href="{{ memberlink }}">{{ member.name }} - {{ member.relation }}</a><br>
-              {% endfor %}
-            {% endif %}
+            {{ project.race }}
+          </td>
+          <td>
+            <b>Family:</b>
+          </td>
+          <td>
+            {% for member in project.family %}
+              {% assign memberlink = member.name | prepend: '/people/' | replace: ' ','-' | append: '/' | downcase | strip %}
+              <a href="{{ memberlink }}">{{ member.name }} - {{ member.relation }}</a><br>
+            {% endfor %}
           </td>
         </tr>
         <tr>
           <td>
-            {% if project.hair_color %}
-              <b>Hair Color:</b>
-            </td>
-            <td>
-              {{ project.hair_color }}
-            {% endif %}
+            <b>Hair Color:</b>
           </td>
           <td>
-            {% if project.affiliations %}
-              <b>Affiliations:</b>
-            </td>
-            <td>
-              {{ project.affiliations }}
-            {% endif %}
+            {{ project.hair_color }}
+          </td>
+          <td>
+            <b>Affiliations:</b>
+          </td>
+          <td>
+            {{ project.affiliations }}
           </td>
         </tr>
         <tr>
           <td>
-            {% if project.eye_color %}
-              <b>Eye Color:</b>
-            </td>
-            <td>
-              {{ project.eye_color }}
-            {% endif %}
+            <b>Eye Color:</b>
           </td>
           <td>
-            {% if project.interests %}
-              <b>Interests:</b>
-            </td>
-            <td>
-              {{ project.interests }}
-            {% endif %}
+            {{ project.eye_color }}
+          </td>
+          <td>
+            <b>Interests:</b>
+          </td>
+          <td>
+            {{ project.interests }}
           </td>
         </tr>
         <tr>
           <td>
-            {% if project.height %}
-              <b>Height:</b>
-            </td>
-            <td>
-              {{ project.height }}
-            {% endif %}
+            <b>Height:</b>
           </td>
           <td>
-            {% if project.vehicle %}
-              <b>Vehicle:</b>
-            </td>
-            <td>
-              {{ project.vehicle }}
-            {% endif %}
+            {{ project.height }}
+          </td>
+          <td>
+            <b>Vehicle:</b>
+          </td>
+          <td>
+            {{ project.vehicle }}
           </td>
         </tr>
         <tr>
           <td>
-            {% if project.weight %}
-              <b>Weight:</b>
-            </td>
-            <td>
-              {{ project.weight }}
-            {% endif %}
+            <b>Weight:</b>
           </td>
           <td>
-            {% if project.notable_features %}
-              <b>Notable Features:</b>
-            </td>
-            <td>
-              {{ project.notable_features | replace: ',' , '<br>' | replace: '"','' | replace: '[','' | replace: ']','' | lstrip }}
-            {% endif %}
+            {{ project.weight }}
+          </td>
+          <td>
+            <b>Notable Features:</b>
+          </td>
+          <td>
+            {{ project.notable_features | replace: ',' , '<br>' | replace: '"','' | replace: '[','' | replace: ']','' | lstrip }}
           </td>
         </tr>
       </table>

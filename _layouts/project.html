@@ -97,120 +97,152 @@ layout: base
         </tr>
         <tr>
           <td>
-            <b>Date of Birth:</b>
+            {% if project.dateofbirth %}
+              <b>Date of Birth:</b>
+            </td>
+            <td>
+              {{ project.dateofbirth }}
+            {% endif %}
           </td>
           <td>
-            {{ project.dateofbirth }}
-          </td>
-          <td>
-            <b>Work:</b>
-          </td>
-          <td>
-            {{ project.work }}
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <b>Date of Death:</b>
-          </td>
-          <td>
-            {{ project.dateofdeath }}
-          </td>
-          <td>
-            <b>School:</b>
-          </td>
-          <td>
-            {{ project.school }}
+            {% if project.work %}
+              <b>Work:</b>
+            </td>
+            <td>
+              {{ project.work }}
+            {% endif %}
           </td>
         </tr>
         <tr>
           <td>
-            <b>Sex:</b>
+            {% if project.dateofdeath %}
+              <b>Date of Death:</b>
+            </td>
+            <td>
+              {{ project.dateofdeath }}
+            {% endif %}
           </td>
           <td>
-            {{ project.sex }}
-          </td>
-          <td>
-            <b>Relationship:</b>
-          </td>
-          <td>
-            {% for member in project.relationship %}
-              {% assign memberlink = member.name | prepend: '/people/' | replace: ' ','-' | append: '/' | downcase | strip %}
-              <a href="{{ memberlink }}">{{ member.name }} - {{ member.relation }}</a><br>
-            {% endfor %}
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <b>Race:</b>
-          </td>
-          <td>
-            {{ project.race }}
-          </td>
-          <td>
-            <b>Family:</b>
-          </td>
-          <td>
-            {% for member in project.family %}
-              {% assign memberlink = member.name | prepend: '/people/' | replace: ' ','-' | append: '/' | downcase | strip %}
-              <a href="{{ memberlink }}">{{ member.name }} - {{ member.relation }}</a><br>
-            {% endfor %}
+            {% if project.school %}
+              <b>School:</b>
+            </td>
+            <td>
+              {{ project.school }}
+            {% endif %}
           </td>
         </tr>
         <tr>
           <td>
-            <b>Hair Color:</b>
+            {% if project.sex %}
+              <b>Sex:</b>
+            </td>
+            <td>
+              {{ project.sex }}
+            {% endif %}
           </td>
           <td>
-            {{ project.hair_color }}
-          </td>
-          <td>
-            <b>Affiliations:</b>
-          </td>
-          <td>
-            {{ project.affiliations }}
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <b>Eye Color:</b>
-          </td>
-          <td>
-            {{ project.eye_color }}
-          </td>
-          <td>
-            <b>Interests:</b>
-          </td>
-          <td>
-            {{ project.interests }}
+            {% if project.relationship %}
+              <b>Relationship:</b>
+            </td>
+            <td>
+              {% for member in project.relationship %}
+                {% assign memberlink = member.name | prepend: '/people/' | replace: ' ','-' | append: '/' | downcase | strip %}
+                <a href="{{ memberlink }}">{{ member.name }} - {{ member.relation }}</a><br>
+              {% endfor %}
+            {% endif %}
           </td>
         </tr>
         <tr>
           <td>
-            <b>Height:</b>
+            {% if project.race %}
+              <b>Race:</b>
+            </td>
+            <td>
+              {{ project.race }}
+              {% endif %}
           </td>
           <td>
-            {{ project.height }}
-          </td>
-          <td>
-            <b>Vehicle:</b>
-          </td>
-          <td>
-            {{ project.vehicle }}
+            {% if project.family %}
+              <b>Family:</b>
+            </td>
+            <td>
+              {% for member in project.family %}
+                {% assign memberlink = member.name | prepend: '/people/' | replace: ' ','-' | append: '/' | downcase | strip %}
+                <a href="{{ memberlink }}">{{ member.name }} - {{ member.relation }}</a><br>
+              {% endfor %}
+            {% endif %}
           </td>
         </tr>
         <tr>
           <td>
-            <b>Weight:</b>
+            {% if project.hair_color %}
+              <b>Hair Color:</b>
+            </td>
+            <td>
+              {{ project.hair_color }}
+            {% endif %}
           </td>
           <td>
-            {{ project.weight }}
+            {% if project.affiliations %}
+              <b>Affiliations:</b>
+            </td>
+            <td>
+              {{ project.affiliations }}
+            {% endif %}
+          </td>
+        </tr>
+        <tr>
+          <td>
+            {% if project.eye_color %}
+              <b>Eye Color:</b>
+            </td>
+            <td>
+              {{ project.eye_color }}
+            {% endif %}
           </td>
           <td>
-            <b>Notable Features:</b>
+            {% if project.interests %}
+              <b>Interests:</b>
+            </td>
+            <td>
+              {{ project.interests }}
+            {% endif %}
+          </td>
+        </tr>
+        <tr>
+          <td>
+            {% if project.height %}
+              <b>Height:</b>
+            </td>
+            <td>
+              {{ project.height }}
+            {% endif %}
           </td>
           <td>
-            {{ project.notable_features | replace: ',' , '<br>' | replace: '"','' | replace: '[','' | replace: ']','' | lstrip }}
+            {% if project.vehicle %}
+              <b>Vehicle:</b>
+            </td>
+            <td>
+              {{ project.vehicle }}
+            {% endif %}
+          </td>
+        </tr>
+        <tr>
+          <td>
+            {% if project.weight %}
+              <b>Weight:</b>
+            </td>
+            <td>
+              {{ project.weight }}
+            {% endif %}
+          </td>
+          <td>
+            {% if project.notable_features %}
+              <b>Notable Features:</b>
+            </td>
+            <td>
+              {{ project.notable_features | replace: ',' , '<br>' | replace: '"','' | replace: '[','' | replace: ']','' | lstrip }}
+            {% endif %}
           </td>
         </tr>
       </table>

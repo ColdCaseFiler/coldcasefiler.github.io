@@ -29,7 +29,11 @@ home: 1 Joetown, Joeville
 work: Manager @ McDonald's Restaurant
 school: Doetown High
 relationship: Single
-family: <a href="/people/jim-doe/">Jim Doe (father)</a>, Jane Doe (mother), Steve Doe (brother)
+family: 
+  - Jim Doe - Father 
+  - Jane Doe - Mother 
+  - Steve Doe - Brother
+
 affiliations: none
 interests: fishing
 vehicle: 1988 Chevrolet Cavalier, Red, Coupe

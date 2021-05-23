@@ -105,10 +105,12 @@ layout: base
             <b>Work:</b>
           </td>
           <td>
-            {% for member in project.work %}
-              {% assign memberlink = member.place | prepend: '/places/' | replace: ' ','-' | append: '/' | downcase | strip %}
-              {{ member.role }} at <a href="{{ memberlink }}">{{ member.place }}</a><br>
-            {% endfor %}
+            {% if project.work %}
+              {% for member in project.work %}
+                {% assign memberlink = member.place | prepend: '/places/' | replace: ' ','-' | append: '/' | downcase | strip %}
+                {{ member.role }} at <a href="{{ memberlink }}">{{ member.place }}</a><br>
+              {% endfor %}
+            {% endif %}
           </td>
         </tr>
         <tr>

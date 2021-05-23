@@ -55,5 +55,6 @@ affiliations:
 interests: 
   - Fishing
 
-vehicle: 1988 Chevrolet Cavalier
+vehicle: 
+  - 1988 Chevrolet Cavalier
 ---

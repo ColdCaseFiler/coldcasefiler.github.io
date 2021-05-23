@@ -79,16 +79,20 @@ layout: base
       <table>
         <tr>
           <td>
-            <b>Age:</b>
+            {% if project.age > 0 %}
+              <b>Age:</b>
+            </td>
+            <td>
+              {{ project.age }}
+            {% endif %}
           </td>
           <td>
-            {{ project.age }}
-          </td>
-          <td>
-            <b>Home:</b>
-          </td>
-          <td>
-            {{ project.home }}
+            {% if project.home > 0 %}
+              <b>Home:</b>
+            </td>
+            <td>
+              {{ project.home }}
+            {% endif %}
           </td>
         </tr>
         <tr>

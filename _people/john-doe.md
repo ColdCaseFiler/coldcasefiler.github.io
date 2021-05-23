@@ -23,9 +23,11 @@ hair_color: Brown
 eye_color: Brown
 height: 5'10"
 weight: 160lbs
-notable_features: Tattoo on left bicep, Birthmark on right shoulder
+notable_features: 
+  - Tattoo on left bicep 
+  - Birthmark on right shoulder
 
-home: 1 Joetown, Joeville
+home: 1 Joetown St, Joeville
 work: Manager @ McDonald's Restaurant
 school: Doetown High
 

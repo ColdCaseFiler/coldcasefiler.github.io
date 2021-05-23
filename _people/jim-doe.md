@@ -29,9 +29,9 @@ work: Retired
 school: 
 relationship: Married (Jane Doe)
 family: 
-  - John Doe (son)
-  - Jane Doe (wife)
-  - Steve Doe (son)
+  - John Doe - son
+  - Jane Doe - wife
+  - Steve Doe - son
  
 affiliations: Anglican Church
 interests: fishing

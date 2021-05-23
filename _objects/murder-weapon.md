@@ -15,4 +15,5 @@ links:
   - title: Link
     url: https://hydejack.com/
 sitemap: true
+accent_color: '#FF7575'
 ---

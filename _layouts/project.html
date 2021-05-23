@@ -144,7 +144,9 @@ layout: base
             <b>Family:</b>
           </td>
           <td>
-            {{ project.family | replace: ',' , '<br>' | replace: '"','' | replace: '[','' | replace: ']','' | lstrip }}
+            {% for member in project.family %}
+              {{ member | split: '-' }}
+              <a href="{{ member[0] | prepend: '/people/' | replace: ' ','-' | append: '/' }}"</a><br>
           </td>
         </tr>
         <tr>

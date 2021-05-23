@@ -12,7 +12,10 @@ image:
 accent_color: '#7C5F39'
 sitemap: true
 family:
-  - John Doe
-  - Jim Doe
-  - Steve Doe
+  - name: John Doe
+    relation: Husband
+  - name: Jim Doe
+    relation: Son
+  - name: Steve Doe
+    relation: Son
 ---

@@ -82,25 +82,21 @@ layout: base
             <b>Age:</b>
           </td>
           <td>
-            {% if project.age %}
-              {{ project.age }}
-            {% endif %}
+            {{ project.age }}
           </td>
           <td>
             <b>Home:</b>
           </td>
           <td>
-            {% if project.home %}
-              {{ project.home }}
-            {% endif %}
+            {{ project.home }}
           </td>
         </tr>
         <tr>
           <td>
+            <b>Date of Birth:</b>
+          </td>
+          <td>
             {% if project.dateofbirth %}
-              <b>Date of Birth:</b>
-            </td>
-            <td>
               {{ project.dateofbirth }}
             {% endif %}
           </td>

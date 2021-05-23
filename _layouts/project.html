@@ -145,7 +145,7 @@ layout: base
           </td>
           <td>
             {% for member in project.family %}
-              {% member | split: '-' %}
+              {% assign member | split: '-' %}
               <a href="{{ member | prepend: '/people/' | replace: ' ','-' | append: '/' }}"</a>{{ member }}<br>
             {% endfor %}
           </td>

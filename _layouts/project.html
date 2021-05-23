@@ -206,7 +206,9 @@ layout: base
             <b>Notable Features:</b>
           </td>
           <td>
-            {{ project.notable_features | replace: ',' , '<br>' | replace: '"','' | replace: '[','' | replace: ']','' | lstrip }}
+            {% for feature in project.notable_features %}
+              {{ feature }}
+            {% endfor %}
           </td>
         </tr>
       </table>

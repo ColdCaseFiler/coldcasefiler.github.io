@@ -30,9 +30,9 @@ work: Manager @ McDonald's Restaurant
 school: Doetown High
 relationship: Single
 family: 
-  - Jim Doe - Father 
-  - Jane Doe - Mother 
-  - Steve Doe - Brother
+  - name: Jim Doe - Father 
+  - name: Jane Doe - Mother 
+  - name: Steve Doe - Brother
 
 affiliations: none
 interests: fishing

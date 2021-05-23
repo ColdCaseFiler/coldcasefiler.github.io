@@ -88,7 +88,10 @@ layout: base
             <b>Home:</b>
           </td>
           <td>
-            {{ project.home }}
+            {% for member in project.home %}
+              {% assign memberlink = member.name | prepend: '/places/' | replace: ' ','-' | append: '/' | downcase | strip %}
+              <a href="{{ memberlink }}">{{ member.name }}, {{ member.location }}</a><br>
+            {% endfor %}
           </td>
         </tr>
         <tr>

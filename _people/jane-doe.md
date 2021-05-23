@@ -11,4 +11,8 @@ image:
   path: /assets/img/people/jane-doe.jpg
 accent_color: '#7C5F39'
 sitemap: true
+family:
+  - John Doe
+  - Jim Doe
+  - Steve Doe
 ---

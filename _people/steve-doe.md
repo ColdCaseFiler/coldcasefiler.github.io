@@ -12,10 +12,10 @@ image:
 accent_color: '#7C5F39'
 sitemap: true
 family:
-  - name: John Doe
+  - person: John Doe
     relation: Brother
-  - name: Jim Doe
+  - person: Jim Doe
     relation: Father
-  - name: Jane Doe
+  - person: Jane Doe
     relation: Mother
 ---

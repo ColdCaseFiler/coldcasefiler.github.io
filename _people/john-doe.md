@@ -51,6 +51,7 @@ family:
     relation: Brother
 
 affiliations: none
-interests: fishing
+interests: 
+  - fishing
 vehicle: 1988 Chevrolet Cavalier
 ---

@@ -122,7 +122,10 @@ layout: base
             <b>School:</b>
           </td>
           <td>
-            {{ project.school }}
+            {% for member in project.school %}
+              {% assign memberlink = member.place | prepend: '/places/' | replace: ' ','-' | append: '/' | downcase | strip %}
+              <a href="{{ memberlink }}">{{ member.place }}</a><br>, {{ member.area }}
+            {% endfor %}
           </td>
         </tr>
         <tr>

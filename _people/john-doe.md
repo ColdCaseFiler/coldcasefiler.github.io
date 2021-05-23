@@ -23,6 +23,7 @@ hair_color: Brown
 eye_color: Brown
 height: 5'10"
 weight: 160lbs
+
 notable_features: 
   - Tattoo on left bicep 
   - Birthmark on right shoulder
@@ -41,16 +42,18 @@ school:
 
 family: 
   - person: Jim Doe 
-    relation: Father 
+    relation: father 
     
   - person: Jane Doe 
-    relation: Mother 
+    relation: mother 
     
   - person: Steve Doe 
-    relation: Brother
+    relation: brother
 
-affiliations: none
+affiliations:
+
 interests: 
   - Fishing
+
 vehicle: 1988 Chevrolet Cavalier
 ---

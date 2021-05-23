@@ -173,7 +173,9 @@ layout: base
             <b>Affiliations:</b>
           </td>
           <td>
-            {{ project.affiliations }}
+            {% for affiliation in project.affiliations %}
+              <p>{{ affiliation }}</p><br>
+            {% endfor %}
           </td>
         </tr>
         <tr>

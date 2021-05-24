@@ -353,7 +353,11 @@ collections:
   theories:
     permalink:         /theories/:path/
     output:            true
-
+    
+  references:
+    permalink:         /references/:path/
+    output:            true
+    
 # File inclusion/exclusion
 # ----------------------------------------------------------------------------------------
 

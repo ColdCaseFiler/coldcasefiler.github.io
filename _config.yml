@@ -175,11 +175,11 @@ defaults:
 #    values:
 #      seo:
 #        type:          WebPage
-#  - scope:
-#      type:            theories
-#    values:
-#      seo:
-#        type:          WebPage         
+  - scope:
+      type:            theories
+    values:
+      seo:
+        type:          WebPage         
   - scope:
       type:            featured_categories
     values:

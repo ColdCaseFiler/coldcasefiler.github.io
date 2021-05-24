@@ -6,6 +6,3 @@ show_collection: theories
 no_groups: true
 ---
 
-{% for theory in site.theories %}
-  <a href="/theories/{{ theory }}/">{{ theory }}</a><br>
-{% endfor %}

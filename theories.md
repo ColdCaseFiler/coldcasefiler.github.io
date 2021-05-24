@@ -6,10 +6,4 @@ show_collection: theories
 no_groups: true
 ---
 
-{% assign theories = site.theories %}
 
-{% for theory in theories %}
-
-  {% theory %}
-  
-{% endfor %}

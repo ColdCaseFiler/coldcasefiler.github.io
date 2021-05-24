@@ -170,11 +170,11 @@ defaults:
 #    values:
 #      seo:
 #        type:          WebPage
-#  - scope:
-#      type:            objects
-#    values:
-#      seo:
-#        type:          WebPage
+  - scope:
+      type:            references
+    values:
+      seo:
+        type:          WebPage
   - scope:
       type:            theories
     values:

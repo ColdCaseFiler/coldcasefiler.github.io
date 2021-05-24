@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: projects
 title: Theories
 descriptions: Various theories of how the crime may have occurred.
 show_collection: theories

@@ -4,5 +4,5 @@ title: Places
 show_collection: places
 description: >
   Places associated with the case.
-no_groups: true
+no_groups: false
 ---

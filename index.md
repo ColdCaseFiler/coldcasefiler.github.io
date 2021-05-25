@@ -12,4 +12,6 @@ description: A summary of the case file.
 
 ### The Investigation
 
-Early on, the investigation focused on [Jim Davies](/people/jim-davies/), an acquaintance of John's with a prior record of violent assault.
+Early on, the investigation focused on [Jim Davies](/people/jim-davies/), an acquaintance of John's with a prior record of violent assault. Police were initially unable to confirm Davies' alibi, though, in subsequent weeks he would be cleared via surveillance footage obtained from a business across town.
+
+After the clearing of Davies the investigation stalled, with some detectives believing that John may have taken his own life, while others, still suspicious of Davies, began to look into his associates.

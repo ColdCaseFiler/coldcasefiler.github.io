@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Theory 1
+title: The Jim Davies Theory
 description: >
-  We think the butler did it.
+  This theory hinges on Davies seeking revenge after a prior altercation at the victim's workplace.
 sitemap: false
 ---

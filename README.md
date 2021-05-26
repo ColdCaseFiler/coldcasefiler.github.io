@@ -16,8 +16,6 @@ A cold case file web utility.
     + [Events and Notes](#events-and-notes)
   * [Credits](#credits)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
 ## What is it?
 
 Cold Case Filer is a Github pages template designed to help organize, link and display information in cold cases.
@@ -268,6 +266,8 @@ Typically, I will use the date that I am creating the post as the title, and res
 ## Credits
 
 This template is based on <a href="https://github.com/hydecorp/hydejack">Hydejack</a> by <a href="https://github.com/qwtel">qwtel.</a>
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 Unknown Person image provided by: <a href="http://getdrawings.com/unknown-person-silhouette">Unknown Person Silhouette</a>
 

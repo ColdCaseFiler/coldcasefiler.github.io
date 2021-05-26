@@ -175,6 +175,68 @@ For instance, if we add: Jim Doe to the list of family, it will automatically li
 
 Another example, if we add: 21-1st-street.md to the places folder, we must make sure that when we're referring to it we're calling it: 21 1st Street to make sure the names match. It won't work if you refer to it as: 21 First Street, or 21 1st St. You must ensure that the names follow the same format, if you want links to work.
 
+Any data that you leave out will simply be blank. 
+
+If there is information you don't know, you don't need to add it.
+
+### Places
+
+Places has fewer options than People, but one unique feature it has is that you can embed maps.
+
+Use the embed code from your mapping app, as shown below:
+```
+---
+layout: project
+type: place
+map: <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1-_L86MZm4qn7-NR5lqFZTYeos2QeiKFL" width="640" height="480"></iframe>
+title: 'Murder Site'
+caption: Location of Homicide.
+description: >
+date: '01-01-2016'
+image: 
+  path: /assets/img/places/murder-site.png
+links:
+  - title: Link
+    url: https://hydejack.com/
+sitemap: true
+tags: [victim]
+accent_color: '#FF7575'
+---
+```
+
+### Objects and References
+
+These categories have fewer pre-defined options, but you may add any details, images, links etc. you wish.
+
+Markdown makes tables very easy to create.
+
+### Events and Notes
+
+These two categories are the exceptions. While every other page will show a collection of projects, these two will show a collection of posts, so the layout for these should be set to post, and the title needs to be formatted as YYYY-MM-DD-title.md:
+
+Filename: 2012-02-07-john-doe-leaves-work.md
+```
+---
+layout: post
+title: John Doe leaves work
+slug: events
+description: >
+  John uses his keycard to check out at work.
+date: 1990-04-15 05:05:00 pm
+sitemap: true
+hide_last_modified: true
+tags: [victim]
+---
+
+Last confirmed location
+```
+
+This is an event, placed in the events/_posts folder. It has the slug: events, and, though the file itself is named 2012-02-07-john-doe-leaves-work.md, the date: field will override the date contained in the post title.
+
+In the events folder, posts are ordered chronologically, and will be sorted down to the minute, allowing for a detailed reconstruction.
+
+In the notes folder, posts are ordered newest first, like a traditional blog.
+
 ## Credits
 
 This template is based on <a href="https://github.com/hydecorp/hydejack">Hydejack</a> by <a href="https://github.com/qwtel">qwtel.</a>

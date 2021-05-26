@@ -132,7 +132,9 @@ interests:
 vehicle: 
   - 1988 Chevrolet Cavalier
   ```
-So, we have a lot of stuff there, but we can break it down a bit. The first two sections are settings that all pages will have in common: layout, sitemap, featured, type, title, caption, category, date, description, image, accent_color.
+So, we have a lot of stuff there, but we can break it down a bit. 
+
+The first two sections are settings that all pages will have in common: layout, sitemap, featured, type, title, caption, category, date, description, image, accent_color.
 
 __layout__ - should be set to project
 

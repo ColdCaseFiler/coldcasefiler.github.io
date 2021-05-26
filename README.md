@@ -241,7 +241,7 @@ Last confirmed location
 
 This is an event, placed in the events/_posts folder. It has the slug: events, and, though the file itself is named 2012-02-07-john-doe-leaves-work.md, the date: field will override the date contained in the post title.
 
-In the events folder, posts are ordered chronologically, and will be sorted down to the minute, allowing for a detailed reconstruction.
+In the events folder, posts are ordered chronologically, and will be sorted down to the minute, allowing for a detailed timeline reconstruction.
 
 In the notes folder, posts are ordered newest first, like a traditional blog.
 

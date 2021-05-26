@@ -1,3 +1,7 @@
+# Cold Case Filer
+
+A cold case file web utility.
+
 - [Cold Case Filer](#cold-case-filer)
   * [What is it?](#what-is-it-)
   * [Why did you make this?](#why-did-you-make-this-)
@@ -13,10 +17,6 @@
   * [Credits](#credits)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
-# Cold Case Filer
-
-A cold case file web utility.
 
 ## What is it?
 

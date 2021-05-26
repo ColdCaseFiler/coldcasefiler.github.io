@@ -134,7 +134,7 @@ vehicle:
   ```
 So, we have a lot of stuff there, but we can break it down a bit. The first two sections are settings that all pages will have in common: layout, sitemap, featured, type, title, caption, category, date, description, image, accent_color.
 
-layout - should be set to project
+_layout_ - should be set to project
 
 sitemap - set it to true if you want the pages to appear in the search
 

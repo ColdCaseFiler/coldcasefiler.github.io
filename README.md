@@ -14,7 +14,11 @@ Well, <a href="https://github.com/qwtel">qwtel</a> did a lot of the heavy liftin
 
 I discussed my intended use for his template, he agreed, and I started customizing.
 
-I made this because, often, when reading about a cold case it will make me feel like getting out pen and paper to be able to keep track of every name, relation, detail etc. There seem to be so many cases that have a great deal of information available, but seem to be lacking that key detail or perspective that prevent them from being solved. I thought this template might be able to help people catalogue the information that's available to them, and, hopefully, provide a fresh perspective.
+I made this because, often, when reading about a cold case it will make me feel like getting out pen and paper to be able to keep track of every name, relation, detail etc. 
+
+There seem to be so many cases that have a great deal of information available, but seem to be lacking that key detail or perspective that prevent them from being solved. 
+
+I thought this template might be able to help people catalogue the information that's available to them, and, hopefully, provide a fresh perspective.
 
 ## How do you use this?
 

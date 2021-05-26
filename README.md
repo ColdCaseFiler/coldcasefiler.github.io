@@ -173,9 +173,13 @@ Some: age, dateofbirth, sex, height, weight etc. are self-explanatory, and can b
 
 The rest: home, work, school, family, friends, neighbours, coworkers, vehicle, will be linked to their respective pages if you name them correctly.
 
-For instance, if we add: Jim Doe to the list of family, it will automatically link to the page called jim-doe.md, but if we add a jim-doe.md to the People folder, and then refer to a person called: James Doe, our link won't work, since it will be looking for james-doe.md, which doesn't exist!
+For instance, if we create a person called jim-doe.md, then add: Jim Doe to the list of his family, it will automatically link to the page called jim-doe.md, but if we refer to a person called: James Doe, our link won't work, since it will be looking for james-doe.md, which doesn't exist!
 
-Another example, if we add: 21-1st-street.md to the places folder, we must make sure that when we're referring to it we're calling it: 21 1st Street to make sure the names match. It won't work if you refer to it as: 21 First Street, or 21 1st St. You must ensure that the names follow the same format, if you want links to work.
+Another example, if we add: 21-1st-street.md to the places folder, we must make sure that when we're referring to it we're calling it: 21 1st Street to make sure the names match. 
+
+It won't work if you refer to it as: 21 First Street, or 21 1st St. 
+
+You must ensure that the names follow the same format, if you want links to work.
 
 Any data that you leave out will simply be blank. 
 

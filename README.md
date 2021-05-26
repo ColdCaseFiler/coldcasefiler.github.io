@@ -157,7 +157,7 @@ __title__ - the name of the person, place or object, and the title of the webpag
 
 __caption__ - the smaller writing that appears below the title on the project card
 
-__category__ - a method of sorting within the main categories: eg People could be subcategorized into: Victim, Perpetrator, Suspect, Law Enforcement etc. This one is a little special, as I added a number to go out in front that would determine the order of the categories. So, if you wanted your categories to be: Thieves, Victims, and Law Enforcement, in that order, you could call them: 1 Thieves, 2 Victims, 3 Law Enforcement, and that would ensure that they go in the correct order, while a script removes the number before turning it into the category title.
+__category__ - a method of sorting within the main categories: eg People could be subcategorized into: Victim, Perpetrator, Suspect, Law Enforcement etc. This one is a little special, as I added a number to go out in front that would determine the order of the categories. So, if you wanted your categories to be: Thieves, Victims, and Law Enforcement, in that order, you could call them: 1 Thieves, 2 Victims, 3 Law Enforcement, and that would ensure that they go in the correct order, while a script removes the number for you.
 
 __date__ - the date that will be shown in list view, helpful for when you want to post something today, but have it sorted as happening in the past
 

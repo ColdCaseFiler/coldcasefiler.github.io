@@ -44,7 +44,9 @@ You can ignore all the other files, and start adding data to the main sections o
 
 The assets folder is where you store any media you upload: pictures, PDFs etc.
 
-It is broken down into sub-categories for easier organization: People, Places, Objects and References
+It is broken down into sub-categories for easier organization: People, Places, Objects and References.
+
+So, if you wanted to use the Unknown Person image, you would find it at: /assets/people/unknown.jpg
 
 ### _People
 

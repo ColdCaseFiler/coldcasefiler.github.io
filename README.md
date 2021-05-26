@@ -10,7 +10,7 @@ It is free to use and customize for any case of your choosing.
 
 ## Why did you make this?
 
-Well, <a href="https://github.com/qwtel">qwtel.</a> did a lot of the heavy lifting, this is based on his <a href="https://github.com/hydecorp/hydejack">Hydejack</a> template, which is designed to be a blog/project showcase, which I have simply extended.
+Well, <a href="https://github.com/qwtel">qwtel</a> did a lot of the heavy lifting, this is based on his <a href="https://github.com/hydecorp/hydejack">Hydejack</a> template, which is designed to be a blog/project showcase, which I have simply extended.
 
 I discussed my intended use for his template, he agreed, and I started customizing.
 

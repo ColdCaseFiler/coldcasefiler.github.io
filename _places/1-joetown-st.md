@@ -16,4 +16,5 @@ links:
 sitemap: true
 tags: [victim]
 accent_color: '#56BF56'
+map: <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1PVkKuq6sP3Egn4j8UxndyzpIgMdVmJ3v" width="640" height="480"></iframe>
 ---

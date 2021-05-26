@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: The Suicide Theory
 image: 
   path: /assets/img/people/john-doe.jpg

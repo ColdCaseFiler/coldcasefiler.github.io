@@ -278,9 +278,10 @@ layout: base
   
   {% if project.type == 'place' %}
     {% if project.map %}
+      {% assign map = project.map | replace: 'width="640" height="480"', 'style="width: 100%; height: 480px"' %}
   
-    <h2 class="hr-bottom">Map:</h2>
-      {{ project.map }}
+      <h2 class="hr-bottom">Map:</h2>
+        {{ map }}
   
     {% endif %}  
   {% endif %}

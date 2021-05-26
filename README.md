@@ -38,6 +38,15 @@ This is the landing page/main page for the site. It will be the first page peopl
 
 I have used this as a case brief, a summary, an overview of the entirety of the investigation, with clickable links that take you to more detailed pages.
 
+You can ignore all the other files, and start adding data to the main sections of the site, located in the following folders: _objects, _places, _people, _references, _theories, events/_posts, notes/_posts, and assets.
+
+### Assets
+
+The assets folder is where you store any media you upload: pictures, PDFs etc.
+
+It is broken down into sub-categories for easier organization: People, Places, Objects and References
+
+### _People
 
 
 ## Credits

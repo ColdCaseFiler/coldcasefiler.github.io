@@ -133,7 +133,7 @@ vehicle:
   - 1988 Chevrolet Cavalier
 ---
   ```
-And, [here you can see](/people/john-doe/) what it looks like as a webpage.
+And, [here you can see](https://coldcasefiler.github.io/people/john-doe/) what it looks like as a webpage.
 
 So, we have a lot of stuff there, but we can break it down a bit. 
 

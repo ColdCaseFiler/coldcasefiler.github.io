@@ -62,7 +62,7 @@ There are then keywords and details we can add to fill out and style the data.
 
 ### People
 
-People have the most detailed data sheet.
+People have the most detailed data sheet. Here you can see a sample of the data for our example victim, John Doe:
 ```
 ---
 layout: project
@@ -132,7 +132,30 @@ interests:
 vehicle: 
   - 1988 Chevrolet Cavalier
   ```
-  
+So, we have a lot of stuff there, but we can break it down a bit. The first two sections are settings that all pages will have in common: layout, sitemap, featured, type, title, caption, category, date, description, image, accent_color.
+
+layout - should be set to project
+
+sitemap - set it to true if you want the pages to appear in the search
+
+featured - makes the project card larger, I set it to true for the victim, and false for everyone else
+
+type - person, place or object
+
+title - the name of the person, place or object, and the title of the webpage
+
+caption - the smaller writing that appears below the title on the project card
+
+category - a method of sorting within the main categories: eg People could be subcategorized into: Victim, Perpetrator, Suspect, Law Enforcement etc.
+
+date - the date that will be shown in list view, helpful for when you want to post something today, but have it sorted as happening in the past
+
+description - the text that appears to the right of the image on the project page
+
+image - the main image for the project
+
+accent_color - the color of the project card. I used this to help color code people, places and objects as being associated with the victim, the suspect, law enforcement, etc
+
 
 ## Credits
 

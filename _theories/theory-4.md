@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: The Carjacking Theory
 image: 
   path: /assets/img/people/unknown.jpg

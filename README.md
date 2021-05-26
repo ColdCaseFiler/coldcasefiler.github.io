@@ -237,6 +237,10 @@ In the events folder, posts are ordered chronologically, and will be sorted down
 
 In the notes folder, posts are ordered newest first, like a traditional blog.
 
+You can use the date: field to organize both posts, and projects. There may be times that you wish to group people together: family, associates etc but they are being broken up by other people in the same category. In that case, you can use date to group them together.
+
+Typically, I will use the date that I am creating the post as the title, and reserve the date field for sorting the post into the order I want.
+
 ## Credits
 
 This template is based on <a href="https://github.com/hydecorp/hydejack">Hydejack</a> by <a href="https://github.com/qwtel">qwtel.</a>

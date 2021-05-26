@@ -20,7 +20,7 @@ layout: page
 {% for project in ordered_projects %}
   {% capture title %}{{ project.title }}{% endcapture %}
   {% capture accent_color %}{% if site.color_code[project.accent_color] %}{{ site.color_code[project.accent_color] }}{% else %}{{ project.accent_color }}{% endif %}{% endcapture %}
-  {{ title }} { accent_color: {{ accent_color }}; }
+  {{ title }}.{ accent_color: {{ accent_color }}; }
 {% endfor %}
 
 {% assign prev_category = 0 %}

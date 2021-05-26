@@ -22,6 +22,8 @@ You'll need a Github account (free).
 
 Once you're setup with that, you can come back to this page and hit the fork button:
 
+![Fork](/assets/img/fork.png)
+
 Then, when it asks you what to name it, call it: __yourusername.github.io__
 
 (where __yourusername__ is whatever Github username you chose. My username is __coldcasefiler__, so my repo is called: __coldcasefiler.github.io__)

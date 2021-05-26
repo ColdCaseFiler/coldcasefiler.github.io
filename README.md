@@ -50,7 +50,9 @@ So, if you wanted to use the Unknown Person image, you would find it at: '/asset
 
 ### People, Places and Objects
 
-All the data for people, places and objects is stored in plain text files. They are all formatted using Markdown, so they should all be filename.md 
+All the data for people, places and objects is stored in plain text files. 
+
+They are all formatted using Markdown, so the naming format should be: filename.md 
 
 Click on one of the folders and then select "Add file" to add a new entry.
 

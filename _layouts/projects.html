@@ -13,16 +13,6 @@ layout: page
 {% assign projects_group_by = project.category | default:"victim" %}
 {% assign no_third_column = page.no_third_column | default:site.hydejack.no_third_column | default:false %}
 
-{% for color in site.color_code %}
-.accent_color-{{color[0]}}     { accent_color: {{ color[1] }} !important; }
-{% endfor %}
-
-{% for project in ordered_projects %}
-  {% capture title %}{{ project.title }}{% endcapture %}
-  {% capture accent_color %}{% if site.color_code[project.accent_color] %}{{ site.color_code[project.accent_color] }}{% else %}{{ project.accent_color }}{% endif %}{% endcapture %}
-  {{ title }}.{ accent_color: {{ accent_color }}; }
-{% endfor %}
-
 {% assign prev_category = 0 %}
 {% if page.no_groups %}<div class="columns {% unless no_third_column %}columns-break{% endunless %}">{% endif %}
 {% for project in ordered_projects %}

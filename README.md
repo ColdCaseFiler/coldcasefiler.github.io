@@ -1,3 +1,19 @@
+- [Cold Case Filer](#cold-case-filer)
+  * [What is it?](#what-is-it-)
+  * [Why did you make this?](#why-did-you-make-this-)
+  * [How do you use this?](#how-do-you-use-this-)
+    + [config.yml](#configyml)
+    + [index.md](#indexmd)
+    + [Assets](#assets)
+    + [People, Places and Objects](#people--places-and-objects)
+    + [People](#people)
+    + [Places](#places)
+    + [Objects and References](#objects-and-references)
+    + [Events and Notes](#events-and-notes)
+  * [Credits](#credits)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 # Cold Case Filer
 
 A cold case file web utility.

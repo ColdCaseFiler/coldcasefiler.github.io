@@ -44,12 +44,95 @@ You can ignore all the other files, and start adding data to the main sections o
 
 The assets folder is where you store any media you upload: pictures, PDFs etc.
 
-It is broken down into sub-categories for easier organization: People, Places, Objects and References.
+The img (images) folder is broken down into sub-categories for easier organization: People, Places, Objects and References.
 
-So, if you wanted to use the Unknown Person image, you would find it at: /assets/people/unknown.jpg
+So, if you wanted to use the Unknown Person image, you would find it at: '/assets/img/people/unknown.jpg'
 
-### _People
+### People, Places and Objects
 
+All the data for people, places and objects is stored in plain text files. They are all formatted using Markdown, so they should all be filename.md 
+
+Click on one of the folders and then select "Add file" to add a new entry.
+
+If it is a person, give it a name like: john-doe.md
+
+If it's a place, something like: 1-main-street.md
+
+There are then keywords and details we can add to fill out and style the data.
+
+### People
+
+People have the most detailed data sheet.
+```
+---
+layout: project
+sitemap: true
+featured: true
+
+type: person
+title: John Doe
+caption: Victim
+category: 0 Victim
+date: 1 Sept 1900
+description: >
+  37 year old Bricklayer from Louisville.
+image: 
+  path: /assets/img/people/john-doe.jpg
+accent_color: '#56BF56'
+
+age: 20
+dateofbirth: 1970-08-11
+dateofdeath: 1990-04-15 (est)
+sex: Male
+race: Caucasian
+hair_color: Brown
+eye_color: Brown
+height: 5'10"
+weight: 160lbs
+
+notable_features: 
+  - Tattoo on left bicep 
+  - Birthmark on right shoulder
+
+home: 
+  - place: 1 Joetown St 
+    area: Joeville, USA
+    
+work:
+  - place: McDonalds Restaurant
+    role: Manager
+    
+school: 
+  - place: Doetown High
+    area: Doetown, USA
+
+family: 
+  - person: Jim Doe 
+    relation: father 
+    
+  - person: Jane Doe 
+    relation: mother 
+    
+  - person: Steve Doe 
+    relation: brother
+
+friends:
+
+neighbours:
+  - Mark Lee
+
+coworkers:
+  - Shelly Williams
+
+affiliations:
+
+interests: 
+  - Fishing
+
+vehicle: 
+  - 1988 Chevrolet Cavalier
+  ```
+  
 
 ## Credits
 

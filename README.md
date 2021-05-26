@@ -22,9 +22,9 @@ You'll need a Github account (free).
 
 Once you're setup with that, you can come back to this page and hit the fork button:
 
-Then, when it asks you what to name it, call it: yourusername.github.io 
+Then, when it asks you what to name it, call it: __yourusername.github.io__
 
-(where yourusername is whatever Github username you chose. My username is coldcasefiler, so my repo is called: coldcasefiler.github.io)
+(where __yourusername__ is whatever Github username you chose. My username is __coldcasefiler__, so my repo is called: __coldcasefiler.github.io__)
 
 Now you've got your own site, and you can begin customizing it!
 
@@ -62,7 +62,9 @@ There are then keywords and details we can add to fill out and style the data.
 
 ### People
 
-People have the most detailed data sheet. Here you can see a sample of the data for our example victim, John Doe:
+People have the most detailed data sheet. 
+
+Here you can see a sample of the data for our example victim, John Doe:
 ```
 ---
 layout: project
@@ -151,7 +153,7 @@ __title__ - the name of the person, place or object, and the title of the webpag
 
 __caption__ - the smaller writing that appears below the title on the project card
 
-__category__ - a method of sorting within the main categories: eg People could be subcategorized into: Victim, Perpetrator, Suspect, Law Enforcement etc.
+__category__ - a method of sorting within the main categories: eg People could be subcategorized into: Victim, Perpetrator, Suspect, Law Enforcement etc. This one is a little special, as I added a number to go out in front that would determine the order of the categories. So, if you wanted your categories to be: Thieves, Victims, and Law Enforcement, in that order, you could call them: 1 Thieves, 2 Victims, 3 Law Enforcement, and that would ensure that they go in the correct order, while a script removes the number before turning it into the category title.
 
 __date__ - the date that will be shown in list view, helpful for when you want to post something today, but have it sorted as happening in the past
 
@@ -161,6 +163,15 @@ __image__ - the main image for the project
 
 __accent_color__ - the color of the project card. I used this to help color code people, places and objects as being associated with the victim, the suspect, law enforcement, etc
 
+The rest of the variables are unique to People. 
+
+Some: age, dateofbirth, sex, height, weight etc. are self-explanatory, and can be entered in any format you choose. Eg. weight can be in pounds or kilograms, dates can be numerical or words, and it will have no effect on the site.
+
+The rest: home, work, school, family, friends, neighbours, coworkers, vehicle, will be linked to their respective pages if you name them correctly.
+
+For instance, if we add: Jim Doe to the list of family, it will automatically link to the page called jim-doe.md, but if we add a jim-doe.md to the People folder, and then refer to a person called: James Doe, our link won't work, since it will be looking for james-doe.md, which doesn't exist!
+
+Another example, if we add: 21-1st-street.md to the places folder, we must make sure that when we're referring to it we're calling it: 21 1st Street to make sure the names match. It won't work if you refer to it as: 21 First Street, or 21 1st St. You must ensure that the names follow the same format, if you want links to work.
 
 ## Credits
 

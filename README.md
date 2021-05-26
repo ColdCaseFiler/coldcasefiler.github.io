@@ -28,7 +28,17 @@ Then, when it asks you what to name it, call it: yourusername.github.io
 
 Now you've got your own site, and you can begin customizing it!
 
-### Look at all these folders!
+### config.yml
+
+This is where the basic info for your site is located, you will want to change the title, description, tagline, keywords and logo to be that of your case.
+
+### index.md
+
+This is the landing page/main page for the site. It will be the first page people see, and the page that they are taken back to when they click the site logo.
+
+I have used this as a case brief, a summary, an overview of the entirety of the investigation, with clickable links that take you to more detailed pages.
+
+
 
 ## Credits
 

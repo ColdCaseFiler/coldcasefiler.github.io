@@ -70,7 +70,7 @@ There are then keywords and details we can add to fill out and style the data.
 
 People have the most detailed data sheet. 
 
-Here you can see a sample of the data for our example victim, John Doe:
+Here you can see a sample of the data for our example victim, John Doe (this is john-doe.md in its entirety):
 ```
 ---
 layout: project

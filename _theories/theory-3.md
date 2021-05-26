@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: The Jim Davies Associate Theory
 image: 
   path: /assets/img/people/jim-davies.jpg

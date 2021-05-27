@@ -4,9 +4,9 @@ A cold case file web utility.
 
 - [Cold Case Filer](#cold-case-filer)
   * [What is it?](#what-is-it-)
-  * [Why did you make this?](#why-did-you-make-this-)
-  * [How do you use this?](#how-do-you-use-this-)
-    + [config.yml](#configyml)
+  * [Why did you make it?](#why-did-you-make-it-)
+  * [How do you use it?](#how-do-you-use-it-)
+    + [_config.yml](#_configyml)
     + [index.md](#indexmd)
     + [Assets](#assets)
     + [People, Places and Objects](#people--places-and-objects)
@@ -22,7 +22,7 @@ Cold Case Filer is a Github pages template designed to help organize, link and d
 
 It is free to use and customize for any case of your choosing.
 
-## Why did you make this?
+## Why did you make it?
 
 Well, <a href="https://github.com/qwtel">qwtel</a> did a lot of the heavy lifting, this is based on his <a href="https://github.com/hydecorp/hydejack">Hydejack</a> template, which is designed to be a blog/project showcase, which I have simply extended. I discussed my intended use for his template, he agreed, and I started customizing.
 
@@ -32,7 +32,7 @@ There seem to be so many cases that have a great deal of information available, 
 
 I thought this template might be able to help people catalogue the information that's available to them, and, hopefully, provide a fresh perspective.
 
-## How do you use this?
+## How do you use it?
 
 You'll need a Github account (free).
 
@@ -46,7 +46,7 @@ Then, when it asks you what to name it, call it: __yourusername.github.io__
 
 Now you've got your own site, and you can begin customizing it!
 
-### config.yml
+### _config.yml
 
 This is where the basic info for your site is located, you will want to change the title, description, tagline, keywords and logo to be that of your case.
 

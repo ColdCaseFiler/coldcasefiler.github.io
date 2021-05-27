@@ -88,6 +88,8 @@ If it's a place, something like: 1-main-street.md
 
 There are then keywords and details we can add to fill out and style the data.
 
+![Files-Folders](/assets/img/files-folders.png)
+
 ### People
 
 People have the most detailed data sheet. 

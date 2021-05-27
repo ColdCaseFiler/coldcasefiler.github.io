@@ -66,27 +66,27 @@ This is the landing page/main page for the site. It will be the first page peopl
 
 I have used this as a case brief, a summary, an overview of the entirety of the investigation, with clickable links that take you to more detailed pages.
 
-You can ignore all the other files, and start adding data to the main sections of the site, located in the following folders:__ _objects, _places, _people, _references, _theories, events/_posts, notes/_posts, and assets.__
+You can ignore all the other files, and start adding data to the main sections of the site, located in the following folders: **_objects, _places, _people, _references, _theories, events/_posts, notes/_posts,** and **assets.**
 
 ### Assets
 
-The assets folder is where you store any media you upload: pictures, PDFs etc.
+The **assets** folder is where you store any media you upload: pictures, PDFs etc.
 
-The img (images) folder is broken down into sub-categories for easier organization: People, Places, Objects and References.
+The **img** (images) folder is broken down into sub-categories for easier organization: People, Places, Objects and References.
 
-So, if you wanted to use the Unknown Person image, you would find it at: '/assets/img/people/unknown.jpg'
+So, if you wanted to use the Unknown Person image, you would find it at: **'/assets/img/people/unknown.jpg'**
 
 ### People, Places and Objects
 
 All the data for people, places and objects is stored in plain text files. 
 
-They are all formatted using Markdown, so the naming format should be: filename.md 
+They are all formatted using Markdown, so the naming format should be: **filename.md**
 
 Click on one of the folders and then select "Add file" to add a new entry.
 
-If it is a person, give it a name like: john-doe.md
+If it is a person, give it a name like: **john-doe.md**
 
-If it's a place, something like: 1-main-street.md
+If it's a place, something like: **1-main-street.md**
 
 There are then keywords and details we can add to fill out and style the data.
 

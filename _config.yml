@@ -375,6 +375,7 @@ exclude:
 include:
   - .well-known
   - LICENSE.md
+  - _layouts/eventlist.html
 
 
 # Plugins

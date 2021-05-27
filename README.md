@@ -54,6 +54,8 @@ Then, when it asks you what to name it, call it: __yourusername.github.io__
 
 Now you've got your own site, and you can begin customizing it!
 
+![Files-Folders](/assets/img/files-folders.png)
+
 ### _config.yml
 
 This is where the basic info for your site is located, you will want to change the title, description, tagline, keywords and logo to be that of your case.
@@ -88,7 +90,7 @@ If it's a place, something like: 1-main-street.md
 
 There are then keywords and details we can add to fill out and style the data.
 
-![Files-Folders](/assets/img/files-folders.png)
+
 
 ### People
 

@@ -185,9 +185,9 @@ __accent_color__ - the color of the project card. I used this to help color code
 
 The rest of the variables are unique to People. 
 
-Some: age, dateofbirth, sex, height, weight etc. are self-explanatory, and can be entered in any format you choose. Eg. weight can be in pounds or kilograms, dates can be numerical or words, and it will have no effect on the site.
+Some: __age, dateofbirth, sex, height, weight__ etc. are self-explanatory, and can be entered in any format you choose. Eg. __weight__ can be in pounds or kilograms, __dateofbirth__ can be numerical or words, and it will have no effect on the site.
 
-The rest: home, work, school, family, friends, neighbours, coworkers, vehicle, will be linked to their respective pages if you name them correctly.
+The rest: __home, work, school, family, friends, neighbours, coworkers, vehicle__, will be linked to their respective pages if you name them correctly.
 
 For instance, if we create a person called jim-doe.md, then add: Jim Doe to the list of his family, it will automatically link to the page called jim-doe.md, but if we refer to a person called: James Doe, our link won't work, since it will be looking for james-doe.md, which doesn't exist!
 

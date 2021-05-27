@@ -12,7 +12,7 @@ A cold case file web utility.
     + [People, Places and Objects](#people--places-and-objects)
     + [People](#people)
     + [Places](#places)
-    + [Objects and References](#objects-and-references)
+    + [Objects, Theories and References](#objects--theories-and-references)
     + [Events and Notes](#events-and-notes)
   * [Credits](#credits)
 
@@ -238,7 +238,7 @@ accent_color: '#FF7575'
 ---
 ```
 
-### Objects and References
+### Objects, Theories and References
 
 These categories have fewer pre-defined options, but you may add any details, images, links etc. you wish.
 

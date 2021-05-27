@@ -84,7 +84,7 @@ There are then keywords and details we can add to fill out and style the data.
 
 People have the most detailed data sheet. 
 
-Here you can see a sample of the data for our example victim, John Doe (this is john-doe.md in its entirety):
+Here you can see a sample of the data for our example victim, John Doe (this is __john-doe.md__ in its entirety):
 ```
 ---
 layout: project
@@ -159,7 +159,7 @@ And, [here you can see](https://coldcasefiler.github.io/people/john-doe/) what i
 
 So, we have a lot of stuff there, but we can break it down a bit. 
 
-The first two sections are settings that all pages will have in common: layout, sitemap, featured, type, title, caption, category, date, description, image, accent_color.
+The first two sections are settings that all pages will have in common: __layout, sitemap, featured, type, title, caption, category, date, description, image, accent_color.__
 
 __layout__ - should be set to project
 
@@ -189,9 +189,9 @@ Some: __age, dateofbirth, sex, height, weight__ etc. are self-explanatory, and c
 
 The rest: __home, work, school, family, friends, neighbours, coworkers, vehicle__, will be linked to their respective pages if you name them correctly.
 
-For instance, if we create a person called jim-doe.md, then add: Jim Doe to the list of his family, it will automatically link to the page called jim-doe.md, but if we refer to a person called: James Doe, our link won't work, since it will be looking for james-doe.md, which doesn't exist!
+For instance, if we create a person called __jim-doe.md__, then add: Jim Doe to the list of his family, it will automatically link to the page called __jim-doe.md__, but if we refer to a person called: James Doe, our link won't work, since it will be looking for __james-doe.md__, which doesn't exist!
 
-Another example, if we add: 21-1st-street.md to the places folder, we must make sure that when we're referring to it we're calling it: 21 1st Street to make sure the names match. 
+Another example, if we add: __21-1st-street.md__ to the places folder, we must make sure that when we're referring to it we're calling it: 21 1st Street to make sure the names match. 
 
 It won't work if you refer to it as: 21 First Street, or 21 1st St. 
 
@@ -253,13 +253,13 @@ tags: [victim]
 Last confirmed location
 ```
 
-This is an event, placed in the events/_posts folder. It has the slug: events, and, though the file itself is named 2012-02-07-john-doe-leaves-work.md, the date: field will override the date contained in the post title.
+This is an event, placed in the events/_posts folder. It has the slug: events, and, though the file itself is named __2012-02-07-john-doe-leaves-work.md__, the __date:__ field will override the date contained in the post title.
 
 In the events folder, posts are ordered chronologically, and will be sorted down to the minute, allowing for a detailed timeline reconstruction.
 
 In the notes folder, posts are ordered newest first, like a traditional blog.
 
-You can use the date: field to organize both posts, and projects. There may be times that you wish to group people together: family, associates etc but they are being broken up by other people in the same category. In that case, you can use date to group them together.
+You can use the __date:__ field to organize both posts, and projects. There may be times that you wish to group people together: family, associates etc but they are being broken up by other people in the same category. In that case, you can use __date__ to group them together.
 
 Typically, I will use the date that I am creating the post as the title, and reserve the date field for sorting the post into the order I want.
 

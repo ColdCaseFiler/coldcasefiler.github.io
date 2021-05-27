@@ -24,9 +24,9 @@ It is free to use and customize for any case of your choosing.
 
 ## Why did you make it?
 
-Well, <a href="https://github.com/qwtel">qwtel</a> did a lot of the heavy lifting, this is based on his <a href="https://github.com/hydecorp/hydejack">Hydejack</a> template, which is designed to be a blog/project showcase, which I have simply extended. I discussed my intended use for his template, he agreed, and I started customizing.
+<a href="https://github.com/qwtel">qwtel</a> did a lot of the heavy lifting, this is based on his <a href="https://github.com/hydecorp/hydejack">Hydejack</a> template, which is designed to be a blog/project showcase, and I have simply modified and extended it. I discussed my intended use for his template, he agreed, and I started customizing.
 
-I made this because, often, when reading about a cold case it will make me feel like getting out pen and paper to be able to keep track of every name, relation, detail etc. 
+I made this because, often, when reading about a cold case, I will feel like I need a pen and paper to be able to keep track of every name, relation, detail etc. 
 
 There seem to be so many cases that have a great deal of information available, but seem to be lacking that key detail or perspective that prevent them from being solved. 
 

@@ -90,13 +90,11 @@ If it's a place, something like: **1-main-street.md**
 
 There are then keywords and details we can add to fill out and style the data.
 
-
-
 ### People
 
 People have the most detailed data sheet. 
 
-Here you can see a sample of the data for our example victim, John Doe (this is __john-doe.md__ in its entirety):
+Here you can see the data for our example victim, John Doe (this is __john-doe.md__):
 ```
 ---
 layout: project
@@ -181,11 +179,13 @@ __featured__ - makes the project card larger, I set it to true for the victim, a
 
 __type__ - person, place or object
 
-__title__ - the name of the person, place or object, and the title of the webpage
+__title__ - the name of the person, place or object, which will also be the title of the webpage
 
-__caption__ - the smaller writing that appears below the title on the project card
+__caption__ - the smaller writing that appears below the title on the project card, I use it to describe their relation to the case
 
-__category__ - a method of sorting within the main categories: eg People could be subcategorized into: Victim, Perpetrator, Suspect, Law Enforcement etc. This one is a little special, as I added a number to go out in front that would determine the order of the categories. So, if you wanted your categories to be: Thieves, Victims, and Law Enforcement, in that order, you could call them: 1 Thieves, 2 Victims, 3 Law Enforcement, and that would ensure that they go in the correct order, while a script removes the number for you.
+__category__ - a method of sorting within the main categories: eg People could be subcategorized into: Victim, Perpetrator, Suspect, Law Enforcement etc. 
+
+I added a number to go out in front that would determine the order of the categories. So, if you wanted your categories to be: Thieves, Victims, and Law Enforcement, in that order, you could call them: 1 Thieves, 2 Victims, 3 Law Enforcement, and that would ensure that they go in the correct order, while a script removes the number for you.
 
 __date__ - the date that will be shown in list view, helpful for when you want to post something today, but have it sorted as happening in the past
 
@@ -205,7 +205,7 @@ For instance, if we create a person called __jim-doe.md__, then add: Jim Doe to 
 
 Another example, if we add: __21-1st-street.md__ to the places folder, we must make sure that when we're referring to it we're calling it: 21 1st Street to make sure the names match. 
 
-It won't work if you refer to it as: 21 First Street, or 21 1st St. 
+It won't work if you refer to it as: 21 First Street, or 21 1st St.
 
 You must ensure that the names follow the same format, if you want links to work.
 

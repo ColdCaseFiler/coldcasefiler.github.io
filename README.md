@@ -40,7 +40,7 @@ If you have not used Github Pages before, it allows you to host a free webpage, 
 
 The template does all the hard work of web design for you, leaving you free to just enter your data in plain text, which the template wraps into a nice website for you.
 
-The following steps assume that you have no previous experience with Github Pages, or web development, in general.
+The following steps assume that you have no previous experience with Github Pages, or web development in general.
 
 You'll need a Github account (free).
 

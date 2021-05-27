@@ -26,13 +26,21 @@ It is free to use and customize for any case of your choosing.
 
 <a href="https://github.com/qwtel">qwtel</a> did a lot of the heavy lifting, this is based on his <a href="https://github.com/hydecorp/hydejack">Hydejack</a> template, which is designed to be a blog/project showcase, and I have simply modified and extended it. I discussed my intended use for his template, he agreed, and I started customizing.
 
-I made this because, often, when reading about a cold case, I will feel like I need a pen and paper to be able to keep track of every name, relation, detail etc. 
+I made this because, often, when reading about a cold case, I will feel like I need a pen and paper to be able to keep track of every name, relation, detail etc. and combining that cataloguing with a searchable, linkable, web-based database capable of distilling a large amount of data into a modern, readable format seemed like a natural extension.
 
 There seem to be so many cases that have a great deal of information available, but seem to be lacking that key detail or perspective that prevent them from being solved. 
 
 I thought this template might be able to help people catalogue the information that's available to them, and, hopefully, provide a fresh perspective.
 
 ## How do you use it?
+
+If you have used Github Pages before, then the setup is likely familiar to you, and you will know which files to edit, and how.
+
+If you have not used Github Pages before, it allows you to host a free webpage, based on this template. (or any other!)
+
+The template does all the hard work of web design for you, leaving you free to just enter your data in plain text, which the template wraps into a nice website for you.
+
+The following steps assume that you have no previous experience with Github Pages, or web development, in general.
 
 You'll need a Github account (free).
 

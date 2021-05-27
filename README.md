@@ -9,10 +9,10 @@ A cold case file web utility.
     + [_config.yml](#_configyml)
     + [index.md](#indexmd)
     + [Assets](#assets)
-    + [People, Places and Objects](#people--places-and-objects)
+    + [People, Places and Objects](#people-places-and-objects)
     + [People](#people)
     + [Places](#places)
-    + [Objects, Theories and References](#objects--theories-and-references)
+    + [Objects, Theories and References](#objects-theories-and-references)
     + [Events and Notes](#events-and-notes)
   * [Credits](#credits)
 

@@ -1,0 +1,363 @@
+
+
+
+{
+  "pages": [
+    {
+      
+      
+      
+      "content": "\n",
+      "url": "/404.html"
+    },{
+      
+      
+      
+      "content": "{{ content }}\n\n\n  \n    \n      {% assign posts = site.categories[page.slug]\n      default:site.tags[page.slug]\n      default:site.posts %}\n    \n  \n\n\n{% assign date_formats  = site.data.strings.date_formats               %}\n{% assign list_group_by = date_formats.list_group_by | default:”%Y”    %}\n{% assign list_entry    = date_formats.list_entry    | default:”%d %b” %}\n\n{% assign prev_date = 0 %}\n{% if page.no_groups %}&lt;ul class=\"related-posts\"&gt;{% endif %}\n{% for post in posts reversed %}\n  {% assign current_date = post.date | date:list_group_by %}\n  {% unless page.no_groups %}{% if current_date != prev_date %}\n    {% unless forloop.first %}&lt;/ul&gt;{% endunless %}\n    &lt;h2 id=\"{{ list_group_by | slugify }}-{{ current_date | slugify }}\" class=\"hr-bottom\"&gt;{{ current_date }}&lt;/h2&gt;\n    &lt;ul class=\"related-posts\"&gt;\n    {% assign prev_date = current_date %}\n  {% endif %}{% endunless %}\n  {% include_cached components/post-list-item.html post=post format=list_entry %}\n  {% if forloop.last %}&lt;/ul&gt;{% endif %}\n{% endfor %}\n",
+      "url": "/_layouts/eventlist/"
+    },{
+      
+      "title": "Summary",
+      "description": "A summary of the case file.\n",
+      "content": "The Murder of John Doe\n\nJohn Doe left work on April 15, 1990 shortly after 5pm. Witnesses reported seeing him approximately half an hour later. There are no credible reports of his whereabouts after this time.\n\n2 months later, a body is recovered from a drainage ditch on the western edge of Doetown. Dental records identify the body as that of John Doe.\n\nThe Investigation\n\nEarly on, the investigation focused on Jim Davies, an acquaintance of John’s with a prior record of violent assault. Police were initially unable to confirm Davies’ alibi, though, in subsequent weeks he would be cleared via surveillance footage obtained from a business across town.\n\nAfter the clearing of Davies the investigation stalled, with some detectives believing that John may have taken his own life, a theory with which the family strongly disagreed, while others, still suspicious of Davies, began to look into his associates.\n",
+      "url": "/"
+    },{
+      
+      "title": "Objects",
+      "description": "Objects associated with the case.\n",
+      "content": "\n",
+      "url": "/objects/"
+    },{
+      
+      
+      
+      "content": "\n",
+      "url": "/offline.html"
+    },{
+      
+      "title": "People",
+      "description": "People associated with the case.\n",
+      "content": "\n",
+      "url": "/people/"
+    },{
+      
+      "title": "Places",
+      "description": "Places associated with the case.\n",
+      "content": "\n",
+      "url": "/places/"
+    },{
+      
+      "title": "References",
+      "description": "Any external works about the case, or any that assist in understanding background/context/technical details.\n",
+      "content": "\n",
+      "url": "/references/"
+    },{
+      
+      "title": "Theories",
+      "description": "Various theories of how the crime may have occurred.\n",
+      "content": "\n",
+      "url": "/theories/"
+    }
+  ], 
+  "documents": [
+    {
+      "image": "/assets/img/blog/jj-ying.jpg",
+      "title": "Jim Davies' alibi is confirmed",
+      "date": "1990-08-16 17:52:00 +0000",
+      "description": "Jim Davies is cleared after surveillance footage places him elsewhere.\n",
+      "content": "\n",
+      "categories": ["events"],
+      "tags": [],
+      
+      "collection": "posts",
+      "url": "/events/1990-08-16-alibi-confirmed/"
+    },{
+      
+      "title": "Note 1",
+      "date": "2010-02-15 00:00:00 +0000",
+      "description": "First Note.\n",
+      "content": "Last confirmed location\n",
+      "categories": ["notes"],
+      "tags": ["notes"],
+      
+      "collection": "posts",
+      "url": "/notes/2010-02-15-note-1/"
+    },{
+      
+      "title": "Events",
+      "date": "2021-06-03 13:20:23 +0000",
+      "description": "This is a timeline of the events in the case.\n",
+      "content": "\n",
+      "categories": [],
+      "tags": [],
+      
+      "collection": "featured_categories",
+      "url": "/events/"
+    },{
+      
+      "title": "Notes",
+      "date": "2021-06-03 13:20:23 +0000",
+      "description": "These are notes and thoughts about the crime and the progression of the investigation.\n",
+      "content": "\n",
+      "categories": [],
+      "tags": [],
+      
+      "collection": "featured_categories",
+      "url": "/notes/"
+    },{
+      "image": {"path":"/assets/img/people/john-doe.jpg"},
+      "title": "John Doe",
+      "date": "1900-09-01 00:00:00 +0000",
+      "description": "37 year old Bricklayer from Louisville.\n",
+      "content": "\n",
+      "categories": ["0 Victim"],
+      "tags": [],
+      
+      "collection": "people",
+      "url": "/people/john-doe/"
+    },{
+      "image": {"path":"/assets/img/people/jim-doe.jpg"},
+      "title": "Jim Doe",
+      "date": "1900-09-02 00:00:00 +0000",
+      "description": "50 year old Retiree from Louisville.\n",
+      "content": "\n",
+      "categories": ["0 Victim"],
+      "tags": [],
+      
+      "collection": "people",
+      "url": "/people/jim-doe/"
+    },{
+      "image": {"path":"/assets/img/people/jane-doe.jpg"},
+      "title": "Jane Doe",
+      "date": "1900-09-03 00:00:00 +0000",
+      "description": "62 year old Retiree from Louisville.\n",
+      "content": "\n",
+      "categories": ["0 Victim"],
+      "tags": [],
+      
+      "collection": "people",
+      "url": "/people/jane-doe/"
+    },{
+      "image": {"path":"/assets/img/people/steve-doe.jpg"},
+      "title": "Steve Doe",
+      "date": "1900-09-04 00:00:00 +0000",
+      "description": "62 year old Retiree from Louisville.\n",
+      "content": "\n",
+      "categories": ["0 Victim"],
+      "tags": [],
+      
+      "collection": "people",
+      "url": "/people/steve-doe/"
+    },{
+      "image": {"path":"/assets/img/people/mark-lee.jpg"},
+      "title": "Mark Lee",
+      "date": "1900-09-05 00:00:00 +0000",
+      "description": "62 year old Retiree from Louisville.\n",
+      "content": "\n",
+      "categories": ["0 Victim"],
+      "tags": [],
+      
+      "collection": "people",
+      "url": "/people/mark-lee/"
+    },{
+      "image": {"path":"/assets/img/people/shelly-williams.jpg"},
+      "title": "Shelly Williams",
+      "date": "1900-09-05 00:00:00 +0000",
+      "description": "62 year old Retiree from Louisville.\n",
+      "content": "\n",
+      "categories": ["0 Victim"],
+      "tags": [],
+      
+      "collection": "people",
+      "url": "/people/shelly-williams/"
+    },{
+      "image": {"path":"/assets/img/people/jim-davies.jpg"},
+      "title": "Jim Davies",
+      "date": "2016-01-01 00:00:00 +0000",
+      "description": "29 year old mechanic from Louisville.\n",
+      "content": "Jim Davies, a suspect, chromakey.\n",
+      "categories": ["2 Suspect"],
+      "tags": [],
+      
+      "collection": "people",
+      "url": "/people/jim-davies/"
+    },{
+      "image": {"path":"/assets/img/people/unknown.jpg"},
+      "title": "Unknown",
+      "date": "2016-01-01 00:00:00 +0000",
+      "description": "29 year old mechanic from Louisville.\n",
+      "content": "The unknown perpetrator.\n",
+      "categories": ["1 Perpetrator"],
+      "tags": [],
+      
+      "collection": "people",
+      "url": "/people/unknown/"
+    },{
+      "image": {"path":"/assets/img/people/unknown.jpg"},
+      "title": "Witness 1",
+      "date": "2016-01-01 00:00:00 +0000",
+      "description": "Anonymous witness.\n",
+      "content": "\n",
+      "categories": ["4 Witness"],
+      "tags": [],
+      
+      "collection": "people",
+      "url": "/people/witness-1/"
+    },{
+      "image": {"path":"/assets/img/people/sara-thompson.jpg","srcset":{"1920w":"/assets/img/people/sara-thompson.jpg","960w":"/assets/img/people/sara-thompson.jpg","480w":"/assets/img/people/sara-thompson.jpg"}},
+      "title": "Sara Thompson",
+      "date": "2020-06-01 00:00:00 +0000",
+      "description": "Lead detective assigned to the case.\n",
+      "content": "\n",
+      "categories": ["3 Law"],
+      "tags": [],
+      
+      "collection": "people",
+      "url": "/people/sara-thompson/"
+    },{
+      "image": {"path":"/assets/img/places/1-joetown-st.jpg"},
+      "title": "1 Joetown St",
+      "date": "2016-01-01 00:00:00 +0000",
+      "description": "Photo by Dillon Kydd on Unsplash\n",
+      "content": "\n",
+      "categories": [],
+      "tags": ["victim"],
+      
+      "collection": "places",
+      "url": "/places/1-joetown-st/"
+    },{
+      "image": {"path":"/assets/img/places/doetown-high.jpg"},
+      "title": "Doetown High",
+      "date": "2016-01-01 00:00:00 +0000",
+      "description": "Photo by Wander Fleur on Unsplash\n",
+      "content": "\n",
+      "categories": [],
+      "tags": ["victim"],
+      
+      "collection": "places",
+      "url": "/places/doetown-high/"
+    },{
+      "image": {"path":"/assets/img/places/murder-site.png"},
+      "title": "Murder Site",
+      "date": "2016-01-01 00:00:00 +0000",
+      "description": "Photo by Annie Spratt on Unsplash\n",
+      "content": "\n",
+      "categories": [],
+      "tags": ["victim"],
+      
+      "collection": "places",
+      "url": "/places/murder-site/"
+    },{
+      "image": {"path":"/assets/img/objects/1988-chevrolet-cavalier.jpg"},
+      "title": "1988 Chevrolet Cavalier",
+      "date": "2016-01-01 00:00:00 +0000",
+      "description": "While Hydejack is built for personal sites, it’s versatility allows it to be used a product page as well.\n",
+      "content": "\n",
+      "categories": [],
+      "tags": [],
+      
+      "collection": "objects",
+      "url": "/objects/1988-chevrolet-cavalier/"
+    },{
+      "image": {"path":"/assets/img/objects/9mm-pistol.png"},
+      "title": "Murder Weapon",
+      "date": "2016-01-01 00:00:00 +0000",
+      "description": "While Hydejack is built for personal sites, it’s versatility allows it to be used a product page as well.\n",
+      "content": "\n",
+      "categories": [],
+      "tags": [],
+      
+      "collection": "objects",
+      "url": "/objects/murder-weapon/"
+    },{
+      "image": {"path":"/assets/img/people/jim-davies.jpg"},
+      "title": "The Jim Davies Theory",
+      "date": "2021-06-03 13:20:23 +0000",
+      "description": "Davies was seeking revenge after a prior altercation at the victim’s workplace.\n",
+      "content": "\n",
+      "categories": [],
+      "tags": [],
+      
+      "collection": "theories",
+      "url": "/theories/theory-1/"
+    },{
+      "image": {"path":"/assets/img/people/john-doe.jpg"},
+      "title": "The Suicide Theory",
+      "date": "2021-06-03 13:20:23 +0000",
+      "description": "There may have been stresses to the victim that were unknown to family and friends.\n",
+      "content": "\n",
+      "categories": [],
+      "tags": [],
+      
+      "collection": "theories",
+      "url": "/theories/theory-2/"
+    },{
+      "image": {"path":"/assets/img/people/jim-davies.jpg"},
+      "title": "The Jim Davies Associate Theory",
+      "date": "2021-06-03 13:20:23 +0000",
+      "description": "After clearing Davies, detectives theorized he may have enlisted the help of an accomplice.\n",
+      "content": "\n",
+      "categories": [],
+      "tags": [],
+      
+      "collection": "theories",
+      "url": "/theories/theory-3/"
+    },{
+      "image": {"path":"/assets/img/people/unknown.jpg"},
+      "title": "The Carjacking Theory",
+      "date": "2021-06-03 13:20:23 +0000",
+      "description": "John may have been the victim of a random carjacking.\n",
+      "content": "\n",
+      "categories": [],
+      "tags": [],
+      
+      "collection": "theories",
+      "url": "/theories/theory-4/"
+    },{
+      
+      "title": "Book 1",
+      "date": "2021-06-03 13:20:23 +0000",
+      
+      "content": "doodle\n",
+      "categories": ["0 Books"],
+      "tags": [],
+      
+      "collection": "references",
+      "url": "/references/book-1/"
+    },{
+      
+      "title": "Book 2",
+      "date": "2021-06-03 13:20:23 +0000",
+      "description": "a thing\n",
+      "content": "\n",
+      "categories": ["0 Books"],
+      "tags": [],
+      
+      "collection": "references",
+      "url": "/references/book-2/"
+    },{
+      
+      "title": "Cold Case Unit Guide",
+      "date": "2021-06-03 13:20:23 +0000",
+      
+      "content": "\n\n  View PDF     \n",
+      "categories": ["9 General Reference"],
+      "tags": [],
+      
+      "collection": "references",
+      "url": "/references/cold-case-unit/"
+    },{
+      
+      "title": "Forensic Guide",
+      "date": "2021-06-03 13:20:23 +0000",
+      
+      "content": "\n\n  View PDF     \n",
+      "categories": ["9 General Reference"],
+      "tags": [],
+      
+      "collection": "references",
+      "url": "/references/forensic-guide/"
+    }
+  ]
+}
+
